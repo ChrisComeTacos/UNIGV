@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>JustDance - Dance Class Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <link href="img/lu.png" rel="icon" sizes="32x32" />
+
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Topbar Start -->
+        <div class="container-fluid bg-secondary px-5 d-none d-lg-block">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
+                        <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
+                        <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar & Hero Start -->
+
+        <div class="container-fluid position-relative p-0">
+          <nav
+            class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+          >
+            <a href="#" class="navbar-brand p-0">
+              <div class="uniLogo">
+                <h1 id="navNombre" class="text-primary m-0 fs-4 fw-bold">
+                  <i class="me-3"> <img src="img/lu.png" alt="Logo" /> </i
+                  >Universidad Guadalupe Victoria
+                </h1>
+              </div>
+    
+              <div class="uniLogoResponsive">
+                <h1 class="text-primary m-0 fs-2">
+                  <i class="me-3"> <img src="img/lu.png" alt="Logo" /> </i>UNIGV
+                </h1>
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link active">Inicio</a>
+    
+                <div class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >información</a
+                  >
+                  <div class="dropdown-menu m-0 shadow">
+                    <a href="OfertaEducativa.html" class="dropdown-item"
+                      >Oferta educativa</a
+                    >
+                    <a href="Reglamento.html" class="dropdown-item"
+                      >Reglamento escolar</a
+                    >
+    
+                    <a
+                      href="https://universidadgv.edu.mx/investigacion/depto_investigacion.html"
+                      class="dropdown-item"
+                      >Departamento de investigacion</a
+                    >
+                    <a href="404.html" class="dropdown-item">Facturación</a>
+                  </div>
+                </div>
+    
+                <div class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    >Servicios</a
+                  >
+                  <div class="dropdown-menu m-0 shadow">
+                    <a
+                      href="https://elibro.net/es/lc/guadalupevictoria/login_usuario/?next=/es/lc/guadalupevictoria/inicio/"
+                      class="dropdown-item"
+                      >Biblioteca</a
+                    >
+                    <a
+                      href="Practicas.html"
+                      class="dropdown-item"
+                      >Práctica profesional</a
+                    >
+                    <a href="Practicas.html" class="dropdown-item">Servicio social</a>
+                  </div>
+                </div>
+    
+                <a href="contact.html" class="nav-item nav-link">Contacto</a>
+              </div>
+              <a
+                href="https://universidadgv.edu.mx/virtual/login/index.php"
+                class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+                >Plataforma</a
+              >
+            </div>
+          </nav>
+        </div>
+
+        <!-- Navbar & Hero End -->
+
+        <!-- Header Start -->
+
+        <div class="px-4 pt-5 mt-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold text-body-emphasis">Reglamento de Alumnos</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Es importante leer el reglamento de alumnos para comprender las normas que rigen nuestra comunidad educativa. Así garantizamos un ambiente de respeto, aprendizaje y convivencia.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <a href="#DescargarReglamento">
+
+                    <button type="button" class="btn btn-primary text-light btn-lg px-4 me-sm-3">Leer reglamento</button>
+                </a>
+                <!-- <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+              </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <img src="img/HeaderReglamentoUNIGV.svg" class="img-fluid border rounded-3 shadow-lg mb-4 wow fadeInUp" alt="Example image" width="700" height="500" loading="lazy">
+              </div>
+            </div>
+        </div>
+        
+        <!-- Header End -->
+
+        <!-- Banner Start -->
+
+        <!-- <div
+        class="container-fluid bg-danger wow zoomInDown"
+        data-wow-delay="0.1s"
+      >
+        <div class="container">
+          <div
+            class="d-flex flex-column flex-lg-row align-items-center justify-content-center text-center p-5"
+          >
+            <h1 class="me-4">
+              <span class="fw-normal">Informes </span
+              ><span> e Inscripciones</span>
+            </h1>
+            <a href="#" class="text-white fw-bold fs-2">
+              <i class="fa fa-phone me-1"></i> 714-783-2205</a
+            >
+          </div>
+        </div>
+      </div> -->
+
+        <!-- Banner End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid contact py-5">
+            <div class="container py-5">
+                <div class="pb-5">
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInLeft" data-wow-delay="0.1s">Reglamento</h4>
+                    <h1 class="display-2 mb-0 wow fadeInLeft">Reglamento de Alumnos de la Universidad Guadalupe Victoria</h1>
+                </div>
+                
+            <div class="bg-light shadow rounded p-4 pb-0">
+
+                <div class="container p-3">
+                    <h1>¡Bienvenido a la <span class="text-danger fw-bold">Universidad Guadalupe Victoria</span>!</h1>
+                    <p>Este reglamento tiene como objetivo principal establecer las normas de conducta y comportamiento que deben seguir nuestros alumnos para fomentar un ambiente de respeto y aprendizaje. ¡Te invitamos a conocerlo y ser parte de nuestra comunidad!</p>
+                </div>
+
+            </div>
+
+            <div class="bg-light shadow rounded my-4 p-4 pb-0  ">
+
+                <div class="container p-3">
+                    <div class="row align-items-center">
+                        <!-- Columna del texto -->
+                        <div class="col-md-7">
+                            <h1>Objetivos del alumno</h1>
+                            <p>Conoce los objetivos principales de nuestro reglamento de alumnos. Desde promover un entorno de aprendizaje seguro y respetuoso hasta fomentar las habilidades de liderazgo y responsabilidad, estamos comprometidos con tu éxito académico y personal. Descubre cómo este reglamento te brinda una base sólida para crecer y desarrollarte como individuo.</p>
+                        </div>
+                        <!-- Columna de la imagen -->
+                        <div class="col-md-5 text-center wow fadeInUp">
+                            <img src="img/ReglamentoUNIGV.svg" alt="Imagen de ejemplo" class="img-fluid rounded" style="width: 400px;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bg-light shadow rounded my-4 p-4 pb-0">
+
+                <div class="container p-3">
+                    <div class="row align-items-center">
+
+                        <!-- Columna de la imagen -->
+                        <div class="col-md-5 text-center wow fadeInUp">
+                            <img src="img/ReglamentoUNIGV2.svg" alt="Imagen de ejemplo" class="img-fluid rounded" style="width: 400px;">
+                        </div>
+
+                        <!-- Columna del texto -->
+                        <div class="col-md-7 text-end">
+                            <h1>Normas de Conducta y Comportamiento</h1>
+                            <p>Así como en cualquier comunidad, es importante establecer normas de conducta y comportamiento para mantener un ambiente armonioso y productivo. En esta sección, aprenderás sobre las conductas esperadas tanto dentro como fuera del campus, el respeto a los demás y a las instalaciones, y cómo ser un miembro de la comunidad universitaria ejemplar.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bg-light shadow rounded my-4 p-4 pb-0">
+
+                <div class="container p-3">
+                    <div class="row align-items-center">
+                        <!-- Columna del texto -->
+                        <div class="col-md-7">
+                            <h1>Procedimientos Disciplinarios</h1>
+                            <p>En situaciones en las que las normas se vean infringidas, es necesario contar con procedimientos disciplinarios claros y justos. Aquí te explicaremos cómo se lleva a cabo el proceso disciplinario, desde la investigación hasta las posibles sanciones. Nuestro objetivo es promover la responsabilidad y el crecimiento personal en cada uno de nuestros alumnos.</p>
+                        </div>
+                        <!-- Columna de la imagen -->
+                        <div class="col-md-5 text-center wow fadeInUp">
+                            <img src="img/ReglamentoUNIGV3.svg" alt="Imagen de ejemplo" class="img-fluid rounded" style="width: 400px;">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="DescargarReglamento" class="bg-light shadow rounded my-4 p-4 ">
+
+                <div  class="container p-3">
+                            <h1>Derechos y Responsabilidades de los Alumnos</h1>
+                            <p>Todos los alumnos de la Universidad Guadalupe Victoria tienen derechos y responsabilidades que deben conocer y respetar. En esta sección, aprenderás sobre tus derechos académicos, acceso a recursos y servicios, y cómo puedes contribuir al bienestar de la comunidad estudiantil. Conoce tus derechos y haz valer tu voz. <span class="fw-bold">¡Descárgalo ahora!</span></p>
+
+                            <a class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0" href="img/pdf/Reglamento-de-alumnos-2023.pdf" download="ReglamentoEscolar2023">Descargar reglamento escolar</a>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+              <div class="row g-5 justify-content-center">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                  <div class="footer-item d-flex flex-column">
+                    <div class="footer-item">
+                      <h4 class="text-white mb-4">JustDanc</h4>
+                      <p class="text-white mb-3">
+                        Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit consectetur
+                        adipiscing elit.
+                      </p>
+                      <div class="d-flex">
+                        <a
+                          class="btn btn-lg-square btn-primary rounded-circle me-2"
+                          href="https://www.facebook.com/UGVGuadalupeVictoria"
+                          ><i class="fab fa-facebook-f"></i
+                        ></a>
+                        <a
+                          class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                          href=""
+                          ><i class="fab fa-instagram"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                  <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Contacto</h4>
+                    <div class="d-flex align-items-center mb-3">
+                      <a
+                        class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                        href=""
+                        ><i class="fas fa-map-marker-alt"></i
+                      ></a>
+                      <div class="text-white ms-2">
+                        <p class="mb-0">0123.. Street, New York, USA</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                      <a
+                        class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                        href=""
+                        ><i class="fa fa-phone-alt"></i
+                      ></a>
+                      <div class="text-white ms-2">
+                        <p class="mb-0">(981)4540648</p>
+                        <p class="mb-0">(981)1938504</p>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <a
+                        class="btn btn-lg-square btn-primary rounded-circle mx-2"
+                        href=""
+                        ><i class="fas fa-envelope"></i
+                      ></a>
+                      <div class="text-white ms-2">
+                        <p class="mb-0">info@example.com</p>
+                        <p class="mb-0">info@example.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                  <div class="footer-item d-flex flex-column">
+                    <div class="footer-item">
+                      <h4 class="text-white mb-4">Ubicación</h4>
+      
+                      <div class="position-relative mx-auto rounded-pill">
+                        <iframe
+                          class="mapaUniversidad"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.0106280288114!2d-90.52599442405189!3d19.797146728936532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f83173bca5af13%3A0x16dc14e228db80d1!2sUniversidad%20Guadalupe%20Victoria!5e0!3m2!1ses-419!2smx!4v1737688047130!5m2!1ses-419!2smx"
+                          width="400"
+                          height="300"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
