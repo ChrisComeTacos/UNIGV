@@ -5,6 +5,12 @@
 body {
   background: #fafafa;
   font-family: "Poppins", serif;
+  overflow-x: hidden;
+}
+
+/* Evitar desbordamiento horizontal */
+.container-fluid {
+  max-width: 100%;
 }
 
 #spinner {
