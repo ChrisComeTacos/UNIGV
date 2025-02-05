@@ -413,6 +413,8 @@ nav h1 {
 }
 /*** Single Page Hero Header End ***/
 
+/* Titulacion y servicio social Start */
+
 .scrollspy-example {
   overflow-y: auto;
   height: 600px;
@@ -429,9 +431,20 @@ nav h1 {
   .scrollspy-example {
     overflow-y: hidden;
     height: auto;
+    text-align: center;
+  }
+  iframe {
+    width: 100%;
   }
 }
 
+@media (max-width: 1200px) {
+  .list-group {
+    display: none;
+  }
+}
+
+/* Titulacion y servicio social End */
 .timeline-with-icons {
   border-left: 1px solid hsl(0, 0%, 90%);
   position: relative;
