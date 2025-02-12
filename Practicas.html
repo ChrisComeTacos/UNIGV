@@ -26,6 +26,8 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -33,13 +35,13 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
+    
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
   <body>
-    
     <!-- Spinner Start -->
     <div
       id="spinner"
@@ -61,11 +63,10 @@
         <div class="col-lg-8 text-center text-lg-start mb-lg-0">
           <div class="d-flex flex-wrap">
             <a href="#" class="text-light me-4"
-              ><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A
-              Location</a
+              ><i class="fas fa-map-marker-alt text-primary me-2"></i>¡Encuéntranos!</a
             >
             <a href="#" class="text-light me-4"
-              ><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a
+              ><i class="fas fa-phone-alt text-primary me-2"></i>+9814540648</a
             >
             <a href="#" class="text-light me-0"
               ><i class="fas fa-envelope text-primary me-2"></i
@@ -77,12 +78,12 @@
     </div>
     <!-- Topbar End -->
 
-    <!-- Navbar & Hero Start -->
+    <!-- Navbar -->
     <div class="container-fluid position-relative p-0">
       <nav
         class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
       >
-        <a href="#" class="navbar-brand p-0">
+        <a href="index.html" class="navbar-brand p-0">
           <div class="uniLogo">
             <h1 id="navNombre" class="text-primary m-0 fs-4 fw-bold">
               <i class="me-3"> <img src="img/lu.png" alt="Logo" /> </i
@@ -91,7 +92,7 @@
           </div>
 
           <div class="uniLogoResponsive">
-            <h1 class="text-primary m-0 fs-2">
+            <h1 class="text-primary m-0 fs-2 fw-bold">
               <i class="me-3"> <img src="img/lu.png" alt="Logo" /> </i>UNIGV
             </h1>
           </div>
@@ -113,7 +114,7 @@
                 href="#"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-                >información</a
+                >Información</a
               >
               <div class="dropdown-menu m-0 shadow">
                 <a href="OfertaEducativa.html" class="dropdown-item"
@@ -128,7 +129,7 @@
                   class="dropdown-item"
                   >Departamento de investigacion</a
                 >
-                <a href="404.html" class="dropdown-item">Facturación</a>
+                <a href="404.html" class="dropdown-item">Pagos</a>
               </div>
             </div>
 
@@ -145,12 +146,12 @@
                   class="dropdown-item"
                   >Biblioteca</a
                 >
-                <a
-                  href="https://universidadgv.edu.mx/investigacion/depto_investigacion.html"
-                  class="dropdown-item"
+                <a href="Practicas.html#list-item-1" class="dropdown-item"
                   >Práctica profesional</a
                 >
-                <a href="gallery.html" class="dropdown-item">Servicio social</a>
+                <a href="Practicas.html#list-item-2" class="dropdown-item"
+                  >Servicio social</a
+                >
               </div>
             </div>
 
@@ -164,66 +165,73 @@
         </div>
       </nav>
     </div>
-    <!-- Navbar & Hero End -->
+    <!-- Navbar -->
 
-    <!-- Main Start -->
+    <!-- Header Start -->
 
-    <div class="container mt-5 py-4">
-      <div class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <div class="container p-3">
-          <h1 class="display-5 mb-5">
-            Departamento de
-            <span class="text-danger fw-bold"
-              >Titulación y Servicio Social</span
-            >
-          </h1>
-          <p class="fs-4">
-            La Universidad Guadalupe Victoria, a través del Departamento de
-            Titulación y Servicio Social, tiene como propósito lograr que los
-            egresados acrediten una modalidad de titulación para la obtención
-            del título o grado electrónico.
-          </p>
-
-          <p class="fs-4">
-            La conclusión de una etapa de estudios, se consolida en acreditar
-            una modalidad de titulación, que pueden o no, exigir la presentación
-            de un examen o trabajo recepcional con el que se valora al pasante
-            de licenciatura o candidato al grado (de maestría o doctorado),
-            conociendo sus capacidades y habilidades para la aplicación de los
-            conocimientos adquiridos a lo largo de su formación académica.
-          </p>
-        </div>
-      </div>
-
-      <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-          <div class="h-100 p-5 text-bg-dark rounded-3">
-            <h2>Prácticas profesionales y servicio social</h2>
-            <p>
-              Calendarización para registro de las actividades de prácticas
-              profesionales y servicio social.
-            </p>
-            <button class="btn btn-outline-light" type="button">
-              Example button
-            </button>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-            <h2>Titulación</h2>
-            <p>
-              Calendarización para registro de las actividades de prácticas
-              profesionales y servicio social.
-            </p>
-            <button class="btn btn-outline-secondary" type="button">
-              Example button
-            </button>
-          </div>
-        </div>
+    <div class="headerTitulacion">
+      <div class="container px-4 py-5 border-bottom">
+        
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5 mt-2">
+              <div class="col d-flex flex-column align-items-start gap-2">
+                <h2 class="fw-bold text-body-emphasis text-danger">Departamento de titulación y servicio social</h2>
+                  <div class="practicaSVG">
+  
+                    <!-- <img  style="width: 300px;" src="img/PracticasUNIGV.svg" alt=""> -->
+                  </div>
+                <p class="text-body-secondary">La Universidad Guadalupe Victoria, a través del Departamento de Titulación y Servicio Social, busca que los egresados acrediten una modalidad de titulación para obtener su título o grado. Esto puede implicar un examen o trabajo recepcional para evaluar sus conocimientos y habilidades.</p>
+                <!-- <a href="#" class="btn btn-primary text-light btn-lg">Primary button</a> -->
+                 
+              </div>
+        
+              <div class="col">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                  <div class="col d-flex flex-column gap-2">
+                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-start text-bg-primary bg-gradient fs-4 rounded-3">
+                      <i class="contenedor-iconoHeader bi bi-book-fill"></i>
+                      <!-- <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#collection" />
+                      </svg> -->
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis text-secondary">Prácticas Profesionales</h4>
+                    <p class="text-body-secondary">Desarrolla experiencia en el campo laboral aplicando tus conocimientos en empresas o instituciones.</p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-start text-bg-primary bg-gradient fs-4 rounded-3">
+                      <i class="contenedor-iconoHeader bi bi-people-fill"></i>
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis text-secondary">Servicio Social</h4>
+                    <p class="text-body-secondary">Contribuye a la sociedad mediante proyectos que fortalecen tu formación profesional.</p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-start text-bg-primary bg-gradient fs-4 rounded-3">
+                      <i class="contenedor-iconoHeader bi bi-mortarboard-fill"></i>
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis text-secondary">Titulación</h4>
+                    <p class="text-body-secondary">Acredita una modalidad para obtener tu título o grado y consolidar tu trayectoria académica.</p>
+                  </div>
+        
+                  <div class="col d-flex flex-column gap-2">
+                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-start text-bg-primary bg-gradient fs-4 rounded-3">
+                      <i class="contenedor-iconoHeader bi bi-question-lg"></i>
+                      <!-- <svg class="bi" width="1em" height="1em">
+                        <use xlink:href="#collection" />
+                      </svg> -->
+                    </div>
+                    <h4 class="fw-semibold mb-0 text-body-emphasis text-secondary">Preguntas Frecuentes</h4>
+                    <p class="text-body-secondary">Encuentra respuestas claras sobre procesos, requisitos y trámites.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
       </div>
     </div>
+    
+    <!-- Header End -->
 
-    <!-- Main End -->
+    <!-- Practicas Start -->
 
     <div class="row m-4 justify-content-center">
       <div class="col-lg-2 col-md-1">
@@ -242,7 +250,7 @@
           >
         </div>
       </div>
-      <div class="d-flex justify-content-center col-9">
+      <div class="d-flex justify-content-center col-10">
         <div
           data-bs-spy="scroll"
           data-bs-target="#list-example"
@@ -266,8 +274,8 @@
               experiencia laboral.
             </p>
 
-            <div class="alert alert-warning" role="alert">
-              <span class="fw-bold">Requisitos:</span> Ser alumno regular a
+            <div class="alert alert-warning text-center" role="alert">
+              <span class="fw-bold ">Requisitos:</span> Ser alumno regular a
               partir del 5° cuatrimestre (alumnos pendientes en realizar sus
               prácticas profesionales, también pueden registrarse).
             </div>
@@ -288,7 +296,8 @@
               <iframe jsname="L5Fo6c" 
               sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals allow-storage-access-by-user-activation" 
               frameborder="0" aria-label="Drive Folder" src="https://drive.google.com/embeddedfolderview?authuser=0&amp;id=11f52CjY-5vl_5eEIeCz9iq4WG_WTPgfD#grid" 
-
+                width="1000"
+                height="480"
               allowfullscreen="">
               </iframe>
             </div>
@@ -326,7 +335,7 @@
                     <p class="text-muted">
                       Llena el <a href="https://docs.google.com/document/d/1NQgzB8IMNN-ArPQg8FSA0mfe9IseTzlPoiCCMr7uIH0/edit?tab=t.0">formato de registro</a>, deberás llenarlo con los datos solicitados y enviarlo al 
                       <ul>
-                        <li><strong>Correo electrónico: </strong>dts.guadalupevictoria@gmail.com</li>
+                        <li><strong>Correo electrónico: </strong><a href="mailto:dts.guadalupevictoria@gmail.com">dts.guadalupevictoria@gmail.com</a></li>
                         <li><strong>Asunto: </strong>Registro de prácticas profesionales</li>
                         <li><strong>Cuerpo del mensaje: </strong>Nombre, Licenciatura, Modalidad y Matrícula.</li>
                       </ul>
@@ -357,9 +366,7 @@
                     <h5 class="fw-bold">Carta de aceptación</h5>
                     <p class="text-muted mb-2 fw-bold">Envia tu carta de aceptación al departamento</p>
                     <p class="text-muted">
-                      Una vez que entregues a la empresa tu carta de presentación, deberás solicitar una <a href="https://docs.google.com/document/d/1AsiMyKJUCmOXjx5wfnxouaFEvEEAWRfNxwRurRaXhiY/edit?tab=t.0">carta de aceptación</a>, esta debe enviarse al correo electrónico: dts.guadalupevictoria@gmail.com.
-
-
+                      Una vez que entregues a la empresa tu carta de presentación, deberás solicitar una <a href="https://docs.google.com/document/d/1AsiMyKJUCmOXjx5wfnxouaFEvEEAWRfNxwRurRaXhiY/edit?tab=t.0">carta de aceptación</a>, esta debe enviarse al correo electrónico: <a href="mailto:dts.guadalupevictoria@gmail.com">dts.guadalupevictoria@gmail.com</a>
                     </p>
                   </li>
 
@@ -617,7 +624,7 @@
                               <p class="text-muted">
                                 Llena el <a href="https://docs.google.com/document/d/1NQgzB8IMNN-ArPQg8FSA0mfe9IseTzlPoiCCMr7uIH0/edit?tab=t.0">formato de registro</a>, deberás llenarlo con los datos solicitados y enviarlo al 
                                 <ul>
-                                  <li><strong>Correo electrónico: </strong>dts.guadalupevictoria@gmail.com</li>
+                                  <li><strong>Correo electrónico: </strong><a href="mailto:dts.guadalupevictoria@gmail.com">dts.guadalupevictoria@gmail.com</a></li>
                                   <li><strong>Asunto: </strong>Registro de servicio social</li>
                                   <li><strong>Cuerpo del mensaje: </strong>Nombre, Licenciatura, Modalidad y Matrícula.</li>
                                 </ul>
@@ -649,7 +656,7 @@
                               <h5 class="fw-bold">Carta de aceptación</h5>
                               <p class="text-muted mb-2 fw-bold">Envia tu carta de aceptación al departamento</p>
                               <p class="text-muted">
-                                Una vez que entregues a la empresa tu carta de presentación, deberás solicitar una <a href="https://docs.google.com/document/d/1AsiMyKJUCmOXjx5wfnxouaFEvEEAWRfNxwRurRaXhiY/edit?tab=t.0">carta de aceptación</a>, esta debe enviarse al correo electrónico: dts.guadalupevictoria@gmail.com.
+                                Una vez que entregues a la empresa tu carta de presentación, deberás solicitar una <a href="https://docs.google.com/document/d/1AsiMyKJUCmOXjx5wfnxouaFEvEEAWRfNxwRurRaXhiY/edit?tab=t.0">carta de aceptación</a>, esta debe enviarse al correo electrónico: <a href="mailto:dts.guadalupevictoria@gmail.com">dts.guadalupevictoria@gmail.com</a>.
           
           
                               </p>
@@ -714,21 +721,23 @@
           </p>
 
           <div class="iframePracticas">
-            <iframe src="https://drive.google.com/file/d/115QqKqDDH2ZfG9ElrzR9x268LbH9W1dK/preview" width="640" height="480" allow="autoplay"></iframe>
+            <iframe class="rounded shadow my-3" src="https://drive.google.com/file/d/115QqKqDDH2ZfG9ElrzR9x268LbH9W1dK/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
 
-          <strong>Antes de iniciar tu proceso de titulación, asegúrate  de cumplir con los siguientes requisitos: </strong>
-          <ul>
-            <li>Haber cubierto el 100% de los créditos del programa académico</li>
-            <li>Haber acreditado los exámenes de idiomas correspondientes, (Turismo y Comercio Internacional a partir de la Generación 2017-2020.)</li>
-            <li>Constancia de acompañamiento psicológico (Licenciatura en Psicología Educativa)</li>
-            <li>Culminar prácticas profesionales y contar con la carta de término de servicio social.</li>
-            <li>No contar con adeudos en el área de <strong>cobranza</strong>.</li>
-            <li>No contar con adeudos con el área de <strong>biblioteca</strong>.</li>
-            <li>Cubrir los derechos correspondientes a la titulación (Para iniciar el proceso de titulación los sustentantes deberán cubrir al menos el 50% del total derivado de los derechos correspondientes).</li>
-            <li>Constancia de idioma inglés B2 (Doctorado)</li>
-            <li>Seleccionar una modalidad de titulación</li>
-          </ul>
+          <div class="my-3">
+            <strong>Antes de iniciar tu proceso de titulación, asegúrate  de cumplir con los siguientes requisitos: </strong>
+            <ul>
+              <li>Haber cubierto el 100% de los créditos del programa académico</li>
+              <li>Haber acreditado los exámenes de idiomas correspondientes, (Turismo y Comercio Internacional a partir de la Generación 2017-2020.)</li>
+              <li>Constancia de acompañamiento psicológico (Licenciatura en Psicología Educativa)</li>
+              <li>Culminar prácticas profesionales y contar con la carta de término de servicio social.</li>
+              <li>No contar con adeudos en el área de <strong>cobranza</strong>.</li>
+              <li>No contar con adeudos con el área de <strong>biblioteca</strong>.</li>
+              <li>Cubrir los derechos correspondientes a la titulación (Para iniciar el proceso de titulación los sustentantes deberán cubrir al menos el 50% del total derivado de los derechos correspondientes).</li>
+              <li>Constancia de idioma inglés B2 (Doctorado)</li>
+              <li>Seleccionar una modalidad de titulación</li>
+            </ul>
+          </div>
 
           <div class="iframePracticas">
             <iframe class="rounded shadow" src="https://drive.google.com/file/d/1YyMqr1LdCByxV0wNIHxY9XI-5xnFkNhZ/preview" width="640" height="480" allow="autoplay"></iframe>
@@ -1113,123 +1122,76 @@
 
       </div>
     </div>
+  </div>
 
-    <!-- Footer Start -->
-    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
-      <div class="container py-5">
-        <div class="row g-5 justify-content-center">
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="footer-item d-flex flex-column">
-              <div class="footer-item">
-                <h4 class="text-white mb-4">JustDanc</h4>
-                <p class="text-white mb-3">
-                  Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
-                  ipsum dolor sit amet, consectetur adipiscing elit consectetur
-                  adipiscing elit.
-                </p>
-                <div class="d-flex">
-                  <a
-                    class="btn btn-lg-square btn-primary rounded-circle me-2"
-                    href="https://www.facebook.com/UGVGuadalupeVictoria"
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a
-                    class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                    href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="footer-item d-flex flex-column">
-              <h4 class="text-white mb-4">Contacto</h4>
-              <div class="d-flex align-items-center mb-3">
-                <a
-                  class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                  href=""
-                  ><i class="fas fa-map-marker-alt"></i
-                ></a>
-                <div class="text-white ms-2">
-                  <p class="mb-0">0123.. Street, New York, USA</p>
-                </div>
-              </div>
-              <div class="d-flex align-items-center mb-3">
-                <a
-                  class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                  href=""
-                  ><i class="fa fa-phone-alt"></i
-                ></a>
-                <div class="text-white ms-2">
-                  <p class="mb-0">(981)4540648</p>
-                  <p class="mb-0">(981)1938504</p>
-                </div>
-              </div>
-              <div class="d-flex align-items-center">
-                <a
-                  class="btn btn-lg-square btn-primary rounded-circle mx-2"
-                  href=""
-                  ><i class="fas fa-envelope"></i
-                ></a>
-                <div class="text-white ms-2">
-                  <p class="mb-0">info@example.com</p>
-                  <p class="mb-0">info@example.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- Contact End -->
 
-          <div class="col-md-6 col-lg-6 col-xl-3">
-            <div class="footer-item d-flex flex-column">
-              <div class="footer-item">
-                <h4 class="text-white mb-4">Ubicación</h4>
-
-                <div class="position-relative mx-auto rounded-pill">
-                  <iframe
-                    class="mapaUniversidad"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3754.0106280288114!2d-90.52599442405189!3d19.797146728936532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f83173bca5af13%3A0x16dc14e228db80d1!2sUniversidad%20Guadalupe%20Victoria!5e0!3m2!1ses-419!2smx!4v1737688047130!5m2!1ses-419!2smx"
-                    width="400"
-                    height="300"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
         </div>
-      </div>
-    </div>
-    <!-- Footer End -->
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </footer>
+    </div> -->
 
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-      <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-md-6 text-center text-md-start mb-md-0">
-            <span class="text-white"
-              ><a href="#" class="border-bottom text-white"
-                ><i class="fas fa-copyright text-light me-2"></i>Your Site
-                Name</a
-              >, All right reserved.</span
-            >
-          </div>
-          <div class="col-md-6 text-center text-md-end text-white">
-            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-            Designed By
-            <a class="border-bottom text-white" href="https://htmlcodex.com"
-              >HTML Codex</a
-            >
-          </div>
+
+    <section class="">
+      <!-- Footer -->
+      <footer class="text-center" style="background-color: #b82948">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: CTA -->
+          <section class="">
+            <ul class="nav justify-content-center pb-3 mb-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link px-2 text-light">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="img/pdf/privacidad.pdf"
+                  class="nav-link px-2 text-light"
+                  >Aviso de Privacidad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link px-2 text-light"
+                  >Contacto</a
+                >
+              </li>
+              <!-- <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-light">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2 text-light">About</a>
+              </li> -->
+            </ul>
+          </section>
+          <!-- Section: CTA -->
         </div>
-      </div>
-    </div>
-    <!-- Copyright End -->
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3 text-light"
+          style="background-color: #f6466c"
+        >
+          © 2025 Copyright -
+          <strong>Universidad Guadalupe Victoria</strong>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"
@@ -1248,10 +1210,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
