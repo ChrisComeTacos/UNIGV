@@ -38,26 +38,6 @@
     ],
   });
 
-  // Modal Video
-  //   $(document).ready(function () {
-  //     var $videoSrc;
-  //     $(".btn-play").click(function () {
-  //       $videoSrc = $(this).data("src");
-  //     });
-  //     console.log($videoSrc);
-
-  //     $("#videoModal").on("shown.bs.modal", function (e) {
-  //       $("#video").attr(
-  //         "src",
-  //         $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
-  //       );
-  //     });
-
-  //     $("#videoModal").on("hide.bs.modal", function (e) {
-  //       $("#video").attr("src", $videoSrc);
-  //     });
-  //   });
-
   // Dance Class carousel
   $(".class-carousel").owlCarousel({
     autoplay: true,
@@ -155,74 +135,36 @@
   });
 
   // team carousel
-  // $(".team-carousel").owlCarousel({
-  //     autoplay: true,
-  //     smartSpeed: 1000,
-  //     dots: false,
-  //     loop: true,
-  //     margin: 25,
-  //     nav : true,
-  //     navText : [
-  //         '<i class="fas fa-chevron-left"></i>',
-  //         '<i class="fas fa-chevron-right"></i>'
-  //     ],
-  //     responsiveClass: true,
-  //     responsive: {
-  //         0:{
-  //             items:1
-  //         },
-  //         576:{
-  //             items:1
-  //         },
-  //         768:{
-  //             items:2
-  //         },
-  //         992:{
-  //             items:3
-  //         },
-  //         1200:{
-  //             items:4
-  //         }
-  //     }
-  // });
-
-  // testimonial carousel
-  // $(".testimonial-carousel").owlCarousel({
-  //     autoplay: true,
-  //     smartSpeed: 1000,
-  //     dots: false,
-  //     loop: true,
-  //     margin: 25,
-  //     nav : true,
-  //     navText : [
-  //         '<i class="fas fa-chevron-left"></i>',
-  //         '<i class="fas fa-chevron-right"></i>'
-  //     ],
-  //     responsiveClass: true,
-  //     responsive: {
-  //         0:{
-  //             items:1
-  //         },
-  //         576:{
-  //             items:1
-  //         },
-  //         768:{
-  //             items:2
-  //         },
-  //         992:{
-  //             items:3
-  //         },
-  //         1200:{
-  //             items:3
-  //         }
-  //     }
-  // });
-
-  // Facts counter
-  // $('[data-toggle="counter-up"]').counterUp({
-  //     delay: 5,
-  //     time: 2000
-  // });
+  $(".team-carousel").owlCarousel({
+    autoplay: true,
+    smartSpeed: 1000,
+    dots: false,
+    loop: true,
+    margin: 25,
+    nav: true,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>',
+    ],
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      576: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+      1200: {
+        items: 4,
+      },
+    },
+  });
 
   // Back to top button
   $(window).scroll(function () {
