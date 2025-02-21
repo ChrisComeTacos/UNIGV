@@ -573,12 +573,12 @@ body {
 #tituloHeaderPagos {
   font-size: 3.5rem;
   font-weight: 800;
-  top: 25%;
+  top: 20%;
 }
 
 #subtituloHeaderPagos {
   margin-top: 1rem;
-  top: 40%;
+  top: 42%;
 }
 
 /* PAGOS */
@@ -641,7 +641,7 @@ body {
   }
   #subtituloHeaderPagos {
     font-size: 1.5rem;
-    top: 45%;
+    top: 50%;
   }
   #cerros {
     bottom: 0;
@@ -675,6 +675,8 @@ body {
     top: 25%;
   }
   #subtituloHeaderPagos a {
+    display: flex;
+    flex-direction: column;
     margin-top: 1rem;
   }
 }
@@ -709,6 +711,9 @@ body {
   }
   .reglamento {
     text-align: center;
+  }
+  .IconoReglamento {
+    justify-content: center;
   }
 }
 
@@ -823,3 +828,41 @@ body {
   transform: scale(1.1);
 }
 /*** Personal Administrativo End ***/
+
+/* Estilo del botón flotante */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 25px;
+  z-index: 1000;
+}
+
+/* Estilo del menú desplegable */
+.whatsapp-menu {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  left: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-menu .card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-menu .card a {
+  text-decoration: none;
+  color: #333;
+}
+
+.whatsapp-menu .card a:hover {
+  background: #f9f9f9;
+}

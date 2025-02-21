@@ -179,3 +179,19 @@
     return false;
   });
 })(jQuery);
+
+// Contacto de departamentos
+
+// Función para mostrar/ocultar el menú
+function toggleMenu() {
+  var menu = document.getElementById("whatsapp-menu");
+  menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+
+// Ocultar el menú al hacer clic fuera de él
+window.onclick = function (event) {
+  var menu = document.getElementById("whatsapp-menu");
+  if (!event.target.closest(".whatsapp-button")) {
+    menu.style.display = "none";
+  }
+};
