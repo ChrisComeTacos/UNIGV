@@ -19,8 +19,8 @@ body {
   align-items: center;
   width: 3rem;
   height: 3rem;
-  color: #fff;
-  background-color: #dc3545;
+  color: #dc3545;
+  background-color: #fff;
   border-radius: 8px;
 }
 
@@ -412,13 +412,45 @@ body {
 
 /* Titulacion y servicio social Start */
 
+.headerTitulacion {
+  margin-top: 140px;
+  top: 80rem;
+}
+
+.TitulacionHero {
+  /* background-image: url("img/FondoPruebaTitulacion.png");
+  background-position: center; */
+  border-radius: 40px;
+}
+
 .scrollspy-example {
   overflow-y: auto;
   height: 600px;
 }
 
+.PracticasProfesionales h2 {
+  background: -webkit-linear-gradient(right, #ef4444, #b91c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .iframePracticas {
   text-align: center;
+}
+
+/* Glassmorphism card effect */
+/* .cardTitulacionHero {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+} */
+
+@media (max-width: 768px) {
+  .headerTitulacion {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -435,7 +467,10 @@ body {
   }
   .headerTitulacion {
     text-align: center;
-    margin-top: -8rem;
+    margin-top: -0.1rem;
+  }
+  .TitulacionHero {
+    border-radius: 0%;
   }
 }
 
@@ -574,6 +609,9 @@ body {
   font-size: 3.5rem;
   font-weight: 800;
   top: 20%;
+  background: -webkit-linear-gradient(right, #ef4444, #b91c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #subtituloHeaderPagos {
@@ -866,3 +904,9 @@ body {
 .whatsapp-menu .card a:hover {
   background: #f9f9f9;
 }
+
+/* @media (max-width: 768px) {
+  .whatsapp-menu {
+    left: 800px;
+  }
+} */
