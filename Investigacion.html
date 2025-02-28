@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>UNIGV - Departamento de Investigación</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <link href="img/lu.png" rel="icon" sizes="32x32" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Yantramanav:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <!-- Icon Font Stylesheet -->
+    <script
+      src="https://kit.fontawesome.com/1271cb789e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show position-fixed translate-middle w-100 v top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-secondary px-5 d-none d-lg-block">
+      <div class="row gx-0 align-items-center" style="height: 45px">
+        <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+          <div class="d-flex flex-wrap">
+            <a
+              href="https://maps.app.goo.gl/gMbYQ2amXKpAjqPX9"
+              class="text-light me-4"
+              ><i class="fas fa-map-marker-alt text-secondary me-2"></i
+              >¡Encuéntranos!</a
+            >
+            <a href="tel:+529811938504" class="text-light me-4"
+              ><i class="fas fa-phone-alt text-primary me-2"></i>+9811938504</a
+            >
+            <a
+              href="mailto:admisiones@guadalupe-victoria.edu.mx"
+              class="text-light me-0"
+              ><i class="fas fa-envelope text-primary me-2"></i
+              >admisiones@guadalupe-victoria.edu.mx</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar -->
+    <div class="container-fluid position-relative p-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand p-0">
+          <div class="uniLogo">
+            <h1 id="navNombre" class="text-primary m-0 fs-4 fw-bold">
+              <i class="me-3"> <img src="img/lu.png" alt="Logo" /> </i
+              >Universidad Guadalupe Victoria
+            </h1>
+          </div>
+
+          <div class="uniLogoResponsive">
+            <h1 class="text-primary m-0 fs-2 fw-bold">
+              <i class="me-3"> <img src="img/lu.png" alt="Logo" /> </i>UNIGV
+            </h1>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">Inicio</a>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Información</a
+              >
+              <div class="dropdown-menu m-0 shadow">
+                <a href="OfertaEducativa.html" class="dropdown-item"
+                  >Oferta educativa</a
+                >
+                <a href="Reglamento.html" class="dropdown-item"
+                  >Reglamento escolar</a
+                >
+
+                <a href="404.html" class="dropdown-item"
+                  >Departamento de investigacion</a
+                >
+                <a href="Pagos.html" class="dropdown-item">Pagos</a>
+              </div>
+            </div>
+
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Servicios</a
+              >
+              <div class="dropdown-menu m-0 shadow">
+                <a
+                  href="https://elibro.net/es/lc/guadalupevictoria/login_usuario/?next=/es/lc/guadalupevictoria/inicio/"
+                  class="dropdown-item"
+                  >Biblioteca</a
+                >
+                <a href="Practicas.html#list-item-1" class="dropdown-item"
+                  >Práctica profesional</a
+                >
+                <a href="Practicas.html#list-item-2" class="dropdown-item"
+                  >Servicio social</a
+                >
+              </div>
+            </div>
+
+            <a href="contact.html" class="nav-item nav-link">Contacto</a>
+          </div>
+          <a
+            href="https://universidadgv.edu.mx/virtual/login/index.php"
+            class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+            >Plataforma</a
+          >
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Main Start -->
+
+    <main class="container">
+      <div class="investigacionBlog">
+        <div
+          class="FondoHeaderInvestigacion p-4 p-md-5 mb-4 rounded text-body-emphasis wow fadeInDown" data-wow-delay="0.1s"
+          style="
+            background-image: url('img/DepartamentoInvestigacion/ConvocatoriaPagina.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom;
+          "
+        >
+          <div class="headerInvestigacion col-lg-6 p-4">
+            <h1 class="display-4 text-white fst-italic wow fadeInLeft" data-wow-delay="0.1s">Departamento de investigación</h1>
+            <p class="lead my-3 text-white wow fadeInLeft" data-wow-delay="0.2s">
+              Fomentar la investigación universitaria para difundir conocimiento
+              académico, científico y de divulgación.
+            </p>
+            <p class="lead mb-0 wow fadeInLeft" data-wow-delay="0.3s">
+              <a href="#SobreNosotros_Investigacion" class="text-body-emphasis fw-bold text-light"
+                >Seguir leyendo...</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp" data-wow-delay="0.1s"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary-emphasis"
+                  >UNIGV</strong
+                >
+                <h3 class="mb-0">Convocatorias</h3>
+                <div class="mb-1 text-body-secondary">Nov 12</div>
+                <p class="card-text mb-auto">
+                  Consulta las últimas convocatorias para proyectos de investigación, becas y eventos académicos.
+                </p>
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continuar leyendo
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="img/DepartamentoInvestigacion/ConvocatoriasAbiertas.svg" alt="" style="width: 100%; height:250px;">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp" data-wow-delay="0.1s"
+            >
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis"
+                  >Lectura</strong
+                >
+                <h3 class="mb-0">Revista Digital</h3>
+                <div class="mb-1 text-body-secondary">Nov 11</div>
+                <p class="mb-auto">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue reading
+                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                </a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg
+                  class="bd-placeholder-img"
+                  width="200"
+                  height="250"
+                  xmlns="img/DepartamentoInvestigacion/ConvocatoriaPagina.svg"
+                  role="img"
+                  aria-label="Placeholder: Thumbnail"
+                  preserveAspectRatio="xMidYMid slice"
+                  focusable="false"
+                >
+                  <title>Placeholder</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
+                    Thumbnail
+                  </text>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-5">
+          <div class="col-md-8">
+            <h3 id="SobreNosotros_Investigacion" class="pb-4 mb-4 fst-italic border-bottom wow fadeInLeft" data-wow-delay="0.1s">
+              Sobre nosotros
+            </h3>
+
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1 wow fadeInDown" data-wow-delay="0.2s">
+                <span class="gradiente">Impulsando el Conocimiento:</span> Nuestra Labor en la Investigación
+              </h2>
+              <p class="blog-post-meta">
+                January 1, 2021 by <a href="#">Mark</a>
+              </p>
+
+              <p>
+                El <em>Departamento de Investigación</em> de la <strong>Universidad Guadalupe Victoria</strong> tiene como misión promover y difundir las habilidades de investigación de la comunidad universitaria, impulsando el desarrollo del pensamiento crítico, analítico y reflexivo en los estudiantes y docentes.
+              </p>
+              <hr />
+              <p>
+                Su objetivo principal es generar y compartir conocimiento en diversas áreas del saber, fomentando la producción de trabajos de divulgación, académicos y científicos que contribuyan al avance del conocimiento y a la solución de problemáticas sociales.
+              </p>
+
+              <p>
+                A través de diversas estrategias, como la organización de congresos, seminarios y publicaciones, se busca transmitir una cultura de conocimiento basada en la innovación, la ética y el rigor metodológico.
+              </p>
+
+              <p>
+                De esta manera, el departamento fortalece el compromiso con la excelencia académica y promueve un impacto positivo en la sociedad a través del desarrollo y aplicación del conocimiento.
+              </p>
+
+              <h2 class="wow fadeInDown" data-wow-delay="0.1s">Vinculación</h2>
+              <p>This is an example blockquote in action:</p>
+              <blockquote class="blockquote">
+                <p>Quoted text goes here.</p>
+              </blockquote>
+              <p>
+                El Departamento de Investigación de la Universidad Guadalupe Victoria trabaja constantemente en la promoción, desarrollo y difusión de actividades de investigación dentro y fuera de la comunidad universitaria. A través de diversas estrategias y colaboraciones, se busca fortalecer el intercambio de conocimientos, fomentar la participación activa en proyectos científicos y académicos, y generar espacios que permitan la divulgación de hallazgos relevantes.
+              </p>
+
+              <p>
+                Para lograrlo, se implementan iniciativas como congresos, publicaciones científicas, conferencias y talleres que no solo benefician a los investigadores, sino que también permiten a los estudiantes involucrarse en procesos de indagación y análisis. Estas acciones contribuyen al crecimiento del conocimiento y al impacto positivo en la sociedad, promoviendo una cultura de investigación basada en la innovación, la ética y el rigor metodológico.
+              </p>
+
+              <h3 class="wow fadeInDown" data-wow-delay="0.1s">Convocatorias</h3>
+              <p>
+                La finalidad de las convocatorias es invitar a la comunidad universitaria a participar en la publicación de artículos de divulgación y difusión científica, formar parte del Comité del Departamento de Investigación, pasantías de investigación y estancias. 
+              </p>
+              <blockquote class="blockquote">
+                <p>Trámites:</p>
+              </blockquote>
+              <ul>
+                <li>Inscripción a Talleres.</li>
+                <li>Inscripción a Diplomados.</li>
+                <li>Inscripción a Cursos Nacionales e Internacionales.</li>
+                <li>Inscripción a Foros.</li>
+                <li>Inscripción a Congresos Nacionales e Internacionales.</li>
+                <li>Coloquios de Posgrado.</li>
+                <li>Cartas de presentación para validación de instrumentos de tesis.</li>
+                <li>Constancias de Investigación.</li>
+                <li>Reciben artículos de divulgación.</li>
+                <li>Dictamen de artículos.</li>
+                <li>Asesorías para publicar artículos científicos.</li>
+                <li>Diplomas de cursos, capacitaciones, talleres y diplomados para incentivar la producción de conocimiento.</li>
+                <li>Reconocimientos para docentes que publican artículos científicos.</li>
+              </ul>
+
+              <h2 class="wow fadeInDown" data-wow-delay="0.1s">Galería</h2>
+
+              <div id="carouselExampleAutoplaying" class="carousel slide mb-3 wow fadeInUp" data-wow-delay="0.2s" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                  <div class="carousel-item active">
+                    <img src="img/DepartamentoInvestigacion/8deMarzo/Comite_Investigacion/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/DepartamentoInvestigacion/8deMarzo/Comite_Investigacion/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/DepartamentoInvestigacion/8deMarzo/Comite_Investigacion/3.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <h2>Heading</h2>
+              <p>
+                This is some additional paragraph placeholder content. It has
+                been written to fill the available space and show how a longer
+                snippet of text affects the surrounding content. We'll repeat it
+                often to keep the demonstration flowing, so be on the lookout
+                for this exact same string of text.
+              </p>
+              <h3>Sub-heading</h3>
+              <p>
+                This is some additional paragraph placeholder content. It has
+                been written to fill the available space and show how a longer
+                snippet of text affects the surrounding content. We'll repeat it
+                often to keep the demonstration flowing, so be on the lookout
+                for this exact same string of text.
+              </p>
+              <pre><code>Example code block</code></pre>
+              <p>
+                This is some additional paragraph placeholder content. It's a
+                slightly shorter version of the other highly repetitive body
+                text used throughout.
+              </p>
+            </article>
+
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1">
+                Another blog post
+              </h2>
+              <p class="blog-post-meta">
+                December 23, 2020 by <a href="#">Jacob</a>
+              </p>
+
+              <p>
+                This is some additional paragraph placeholder content. It has
+                been written to fill the available space and show how a longer
+                snippet of text affects the surrounding content. We'll repeat it
+                often to keep the demonstration flowing, so be on the lookout
+                for this exact same string of text.
+              </p>
+              <blockquote>
+                <p>
+                  Longer quote goes here, maybe with some
+                  <strong>emphasized text</strong> in the middle of it.
+                </p>
+              </blockquote>
+              <p>
+                This is some additional paragraph placeholder content. It has
+                been written to fill the available space and show how a longer
+                snippet of text affects the surrounding content. We'll repeat it
+                often to keep the demonstration flowing, so be on the lookout
+                for this exact same string of text.
+              </p>
+              <h3>Example table</h3>
+              <p>And don't forget about tables in these posts:</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Upvotes</th>
+                    <th>Downvotes</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Alice</td>
+                    <td>10</td>
+                    <td>11</td>
+                  </tr>
+                  <tr>
+                    <td>Bob</td>
+                    <td>4</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>Charlie</td>
+                    <td>7</td>
+                    <td>9</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td>Totals</td>
+                    <td>21</td>
+                    <td>23</td>
+                  </tr>
+                </tfoot>
+              </table>
+
+              <p>
+                This is some additional paragraph placeholder content. It's a
+                slightly shorter version of the other highly repetitive body
+                text used throughout.
+              </p>
+            </article>
+
+            <article class="blog-post">
+              <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
+              <p class="blog-post-meta">
+                December 14, 2020 by <a href="#">Chris</a>
+              </p>
+
+              <p>
+                This is some additional paragraph placeholder content. It has
+                been written to fill the available space and show how a longer
+                snippet of text affects the surrounding content. We'll repeat it
+                often to keep the demonstration flowing, so be on the lookout
+                for this exact same string of text.
+              </p>
+              <ul>
+                <li>First list item</li>
+                <li>Second list item with a longer description</li>
+                <li>Third list item to close it out</li>
+              </ul>
+              <p>
+                This is some additional paragraph placeholder content. It's a
+                slightly shorter version of the other highly repetitive body
+                text used throughout.
+              </p>
+            </article>
+
+            <nav class="blog-pagination" aria-label="Pagination">
+              <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+              <a
+                class="btn btn-outline-secondary rounded-pill disabled"
+                aria-disabled="true"
+                >Newer</a
+              >
+            </nav>
+          </div>
+
+          <div class="col-md-4">
+            <div class="position-sticky" style="top: 2rem">
+              <div class="p-4 mb-3 bg-body-tertiary rounded">
+                <h4 class="fst-italic">Dr. Adriana de Jesus Salazar García</h4>
+                <img class="w-100 mb-2 rounded" src="img/DepartamentoInvestigacion/Directora.jpeg" alt="">
+                <p class="mb-0">
+                  Directora del Departamento de Investigación y Difusión del Conocimiento.
+                </p>
+              </div>
+
+              <div>
+                <h4 class="fst-italic">Conoce más...</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                    >
+                      <svg
+                        class="bd-placeholder-img"
+                        width="100%"
+                        height="96"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice"
+                        focusable="false"
+                      >
+                        <rect width="100%" height="100%" fill="#777" />
+                      </svg>
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">Productos de investigación</h6>
+                        <small class="text-body-secondary"
+                          >January 15, 2024</small
+                        >
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                    >
+                      <svg
+                        class="bd-placeholder-img"
+                        width="100%"
+                        height="96"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice"
+                        focusable="false"
+                      >
+                        <rect width="100%" height="100%" fill="#777" />
+                      </svg>
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">Comité</h6>
+                        <small class="text-body-secondary"
+                          >January 14, 2024</small
+                        >
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                    >
+                      <svg
+                        class="bd-placeholder-img"
+                        width="100%"
+                        height="96"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                        preserveAspectRatio="xMidYMid slice"
+                        focusable="false"
+                      >
+                        <rect width="100%" height="100%" fill="#777" />
+                      </svg>
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">
+                          Galería
+                        </h6>
+                        <small class="text-body-secondary"
+                          >January 13, 2024</small
+                        >
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="p-4">
+                <h4 class="fst-italic">Archives</h4>
+                <ol class="list-unstyled mb-0">
+                  <li><a href="#">March 2021</a></li>
+                  <li><a href="#">February 2021</a></li>
+                  <li><a href="#">January 2021</a></li>
+                  <li><a href="#">December 2020</a></li>
+                  <li><a href="#">November 2020</a></li>
+                  <li><a href="#">October 2020</a></li>
+                  <li><a href="#">September 2020</a></li>
+                  <li><a href="#">August 2020</a></li>
+                  <li><a href="#">July 2020</a></li>
+                  <li><a href="#">June 2020</a></li>
+                  <li><a href="#">May 2020</a></li>
+                  <li><a href="#">April 2020</a></li>
+                </ol>
+              </div>
+
+              <div class="p-4">
+                <h4 class="fst-italic">Nuestras redes</h4>
+                <ol class="list-unstyled">
+                  <li><a href="https://www.facebook.com/UGVGuadalupeVictoria" target="_blank">Facebook</a></li>
+                  <li><a href="https://www.instagram.com/unigvguadalupevictoria/" target="_blank">Instagram</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Main End -->
+
+    <section class="">
+      <!-- Footer -->
+      <footer class="text-center" style="background-color: #b82948">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: CTA -->
+          <section class="">
+            <ul class="nav justify-content-center pb-3 mb-3">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link px-2 text-light">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="img/pdf/privacidad.pdf"
+                  class="nav-link px-2 text-light"
+                  >Aviso de Privacidad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link px-2 text-light"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </section>
+          <!-- Section: CTA -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3 text-light"
+          style="background-color: #f6466c"
+        >
+          © 2025 Copyright -
+          <strong>Universidad Guadalupe Victoria</strong>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </section>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/parallax.js"></script>
+    <script
+      src="https://creattie.com/js/embed.js?id=3f6954fde297cd31b441"
+      defer
+    ></script>
+  </body>
+</html>

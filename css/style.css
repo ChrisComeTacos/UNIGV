@@ -24,6 +24,12 @@ body {
   border-radius: 8px;
 }
 
+.gradiente {
+  background: -webkit-linear-gradient(right, #ef4444, #b91c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* Evitar desbordamiento horizontal */
 
 .container-fluid {
@@ -439,7 +445,7 @@ body {
 }
 
 /* Glassmorphism card effect */
-/* .cardTitulacionHero {
+/* .headerInvestigacion {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
@@ -609,9 +615,6 @@ body {
   font-size: 3.5rem;
   font-weight: 800;
   top: 20%;
-  background: -webkit-linear-gradient(right, #ef4444, #b91c1c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 #subtituloHeaderPagos {
@@ -904,3 +907,64 @@ body {
 .whatsapp-menu .card a:hover {
   background: #f9f9f9;
 }
+
+/* Investigacion Start */
+.investigacionBlog {
+  margin-top: 10rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+@media (max-width: 768px) {
+  .investigacionBlog {
+    margin-top: 2rem;
+  }
+}
+
+/* Investigacion End */
