@@ -22,10 +22,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
@@ -210,11 +207,11 @@
                   Consulta las últimas convocatorias para proyectos de investigación, becas y eventos académicos.
                 </p>
                 <a
-                  href="#"
+                  href="#" data-bs-toggle="modal" data-bs-target="#ConvocatoriasModal"
                   class="icon-link gap-1 icon-link-hover stretched-link"
                 >
-                  Continuar leyendo
-                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                  Saber más
+                  <!-- <i class="fa-solid fa-arrow-right"></i> -->
                 </a>
               </div>
               <div class="col-auto d-none d-lg-block">
@@ -237,11 +234,11 @@
                   lead-in to additional content.
                 </p>
                 <a
-                  href="#"
+                  href="#RevistaDivulgacion"
                   class="icon-link gap-1 icon-link-hover stretched-link"
                 >
-                  Continue reading
-                  <svg class="bi"><use xlink:href="#chevron-right" /></svg>
+                  Saber más
+                  <!-- <i class="fa-solid fa-arrow-right"></i> -->
                 </a>
               </div>
               <div class="col-auto d-none d-lg-block">
@@ -277,13 +274,17 @@
                 <span class="gradiente">Impulsando el Conocimiento:</span> Nuestra Labor en la Investigación
               </h2>
               <p class="blog-post-meta">
-                January 1, 2021 by <a href="#">Mark</a>
+                Febrero 28, 2025 por <a href="index.html">Universidad Guadalupe Victoria</a>
               </p>
 
-              <p>
-                El <em>Departamento de Investigación</em> de la <strong>Universidad Guadalupe Victoria</strong> tiene como misión promover y difundir las habilidades de investigación de la comunidad universitaria, impulsando el desarrollo del pensamiento crítico, analítico y reflexivo en los estudiantes y docentes.
-              </p>
+              <div class="textoInvestigacion">
+                <p>
+                  El <em>Departamento de Investigación</em> de la <strong>Universidad Guadalupe Victoria</strong> tiene como misión promover y difundir las habilidades de investigación de la comunidad universitaria, impulsando el desarrollo del pensamiento crítico, analítico y reflexivo en los estudiantes y docentes.
+                </p>
+              </div>
+
               <hr />
+              
               <p>
                 Su objetivo principal es generar y compartir conocimiento en diversas áreas del saber, fomentando la producción de trabajos de divulgación, académicos y científicos que contribuyan al avance del conocimiento y a la solución de problemáticas sociales.
               </p>
@@ -297,10 +298,7 @@
               </p>
 
               <h2 class="wow fadeInDown" data-wow-delay="0.1s">Vinculación</h2>
-              <p>This is an example blockquote in action:</p>
-              <blockquote class="blockquote">
-                <p>Quoted text goes here.</p>
-              </blockquote>
+
               <p>
                 El Departamento de Investigación de la Universidad Guadalupe Victoria trabaja constantemente en la promoción, desarrollo y difusión de actividades de investigación dentro y fuera de la comunidad universitaria. A través de diversas estrategias y colaboraciones, se busca fortalecer el intercambio de conocimientos, fomentar la participación activa en proyectos científicos y académicos, y generar espacios que permitan la divulgación de hallazgos relevantes.
               </p>
@@ -334,7 +332,7 @@
 
               <h2 class="wow fadeInDown" data-wow-delay="0.1s">Galería</h2>
 
-              <div id="carouselExampleAutoplaying" class="carousel slide mb-3 wow fadeInUp" data-wow-delay="0.2s" data-bs-ride="carousel">
+              <div id="carouselExampleAutoplaying" class="carousel slide mb-3 wow fadeInLeft" data-wow-delay="0.1s" data-bs-ride="carousel">
                 <div class="carousel-inner rounded">
                   <div class="carousel-item active">
                     <img src="img/DepartamentoInvestigacion/8deMarzo/Comite_Investigacion/1.png" class="d-block w-100" alt="...">
@@ -356,7 +354,7 @@
                 </button>
               </div>
 
-              <h2>Heading</h2>
+              <!-- <h2>Heading</h2>
               <p>
                 This is some additional paragraph placeholder content. It has
                 been written to fill the available space and show how a longer
@@ -377,38 +375,153 @@
                 This is some additional paragraph placeholder content. It's a
                 slightly shorter version of the other highly repetitive body
                 text used throughout.
-              </p>
+              </p> -->
             </article>
 
-            <article class="blog-post">
-              <h2 class="display-5 link-body-emphasis mb-1">
-                Another blog post
+            <article class="blog-post border-bottom">
+              <h2 id="RevistaDivulgacion" class="display-5 link-body-emphasis mb-1 wow fadeInDown" data-wow-delay="0.1s">
+                <span class="gradiente">Revista de divulgación</span> de la Universidad Guadalupe Victoria
               </h2>
-              <p class="blog-post-meta">
-                December 23, 2020 by <a href="#">Jacob</a>
-              </p>
+              <p class="blog-post-meta wow fadeInLeft" data-wow-delay="0.1s">
+                por: <span style="color: #dc3545;">Departamento de Investigación</span>.
+             </p>
 
               <p>
-                This is some additional paragraph placeholder content. It has
-                been written to fill the available space and show how a longer
-                snippet of text affects the surrounding content. We'll repeat it
-                often to keep the demonstration flowing, so be on the lookout
-                for this exact same string of text.
+                ¡Bienvenidos a nuestra revista de investigación! Somos un equipo apasionado de expertos en diversas áreas de conocimiento. Nuestro objetivo es compartir nuevos descubrimientos, fomentar el debate y promover el avance en el área de investigación. ¡Únete a nosotros y sé parte del mundo del conocimiento!
               </p>
-              <blockquote>
+
+
+              <h2 class="wow fadeInLeft" data-wow-delay="0.1">
+                Áreas de investigación
+              </h2>
+              <p>
+                Nuestra revista cubre una amplia gama de áreas de investigación para garantizar una visión integral del conocimiento. Desde ciencias naturales hasta ciencias sociales, ofrecemos artículos de calidad en cada área.
+              </p>
+
+              <h4 class="wow fadeInLeft" data-wow-delay="0.2">Ciencias de la salud</h4>
+              <p>
+                Nuestra revista cubre una amplia gama de áreas de investigación para garantizar una visión integral del conocimiento. Desde ciencias naturales hasta ciencias sociales, ofrecemos artículos de calidad en cada área.
+              </p>
+              <h4 class="wow fadeInLeft" data-wow-delay="0.2">Ciencias biológicas</h4>
+              <p>
+                Descubre los secretos de la vida y cómo los avances en biología pueden ayudar a mejorar nuestro mundo.
+              </p>
+
+              <h4 class="wow fadeInLeft" data-wow-delay="0.2">Humanidades</h4>
+              <p>
+                Sumérgete en la historia, el arte, la literatura y las nuevas tendencias que están moldeando nuestro mundo.
+              </p>
+
+              <h2 class="wow fadeInDown" data-wow-delay="0.1s">Contenido</h2>
+
+          <ol>
+            <li>
+              <a href="#">"<strong>¿Abuso del celular?:</strong> <em>Conductas adictivas de los Smartphones.</em>" <strong>Pp.6</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>Relación de la arquitectura y la impresión 3D:</strong> <em>Usos de la impresión 3D en la arquitectura.</em>" <strong>Pp.8</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>El silencio de la depresión." Pp.12</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>El nutriólogo y su importancia en la sociedad:</strong> <em>Agente de cambio en la salud.</em>" <strong>pp.15</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>Insectos:</strong> <em>Comida alternativa y sus beneficios.</em>" <strong>Pp.18</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>Funciones del SAT para Personas Físicas</strong>" <strong>Pp.23</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>De palabras a cuadros:</strong> <em>Dall- E2 ¿el nuevo Picasso?</em>" <strong>Pp.27</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>El emprendedor y su medio:</strong> <em>¿Emprender es la solución?</em>" <strong>pp.29</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>Gritos de Auxilio:</strong> <em>Feminicidio.</em>" <strong>Pp.33</strong></a>
+            </li>
+            <li>
+              <a href="#">"<strong>Niños jugando a ser adultos:</strong> <em>Explotación infantil </em>" <strong>Pp.36</strong></a>
+            </li>
+          </ol>
+          
+          <div class="articulo_revista my-5">
+            <h2 class="wow fadeInDown" data-wow-delay="0.1s">¿Abuso del celular?</h2>
+            <p class="fw-bold wow fadeInDown" data-wow-delay="0.1s">Conductas adictivas de los Smartphones.</p>
+
+            <img class="rounded w-100 mb-3 wow fadeInLeft" data-wow-delay="0.1s" src="img/DepartamentoInvestigacion/img_investigacion/Abuso_Celular.jpg" alt="">
+
+            <p class="wow fadeInLeft" data-wow-delay="0.1s">
+              La Dra. Dayara Alejandra Barrios Borjas comenta que “Los celulares son unos aparatos que han revolucionado a la humanidad desde su creación, son dispositivos que nos han permitido obtener múltiples beneficios como el de realizar muchas acciones con una simple llamada o enviar mensajes, sin embargo, el uso excesivo de este ocasiona que las personas adopten conductas o trastornos negativos.”
+            </p>
+              <div class="wow fadeInLeft" data-wow-delay="0.1">
+                <a
+                href="https://drive.google.com/file/d/1qkAXxZPfDhCwY_jGZZ24NZ1UqykKc_4p/preview?usp=embed_googleplus"  target="_blank"
+              >
+                  Ver artículo completo
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+          </div>
+
+          <hr>
+
+          <div class="articulo_revista mb-5">
+            <h2 class="wow fadeInDown" data-wow-delay="0.1s">Relación de la arquitectura y la impresión 3D</h2>
+            <p class="fw-bold wow fadeInDown" data-wow-delay="0.1s">Usos de la impresión 3D en la arquitectura</p>
+            <p class="blog-post-meta wow fadeInLeft" data-wow-delay="0.1s">
+               por: <span style="color: #dc3545;">Josué Absalón Campos Chel</span>.
+            </p>
+
+            <img class="rounded w-100 mb-3 wow fadeInLeft" data-wow-delay="0.1s" src="img/DepartamentoInvestigacion/img_investigacion/Arquitectura_Impresion3D.jpg" alt="">
+
+            <p class="wow fadeInLeft" data-wow-delay="0.2s">
+              Se han preguntado cómo el ser humano llevaba a cabo sus actividades cotidianas (hogar, trabajo, escuela, etc.) hasta antes de la invención de la televisión, de la computadora, del teléfono, del celular, del automóvil, del avión, de las complejas maquinarias utilizadas en las fábricas, etc., lo cierto es que cumplir con las tareas cotidianas, no era tan fácil e inmediato como lo es ahora, realizar ciertos trabajos, podía tomar semanas o meses, sin mencionar la cantidad de mano de obra que estos requerían.
+              </p>
+              <div class="wow fadeInLeft" data-wow-delay="0.1">
+                <a
+                href="https://drive.google.com/file/d/1QhhpnmBo5ZT4Ws_E3pmv6iUyCff19OkY/preview?usp=embed_googleplus"class="icon-link gap-1 icon-link-hover stretched-link" target="_blank"
+              >
+                Ver artículo completo
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              </div>
+          </div>
+
+          <hr>
+
+          <div class="articulo_revista mb-5">
+            <h2 class="wow fadeInDown" data-wow-delay="0.1s">El silencio de la depresión</h2>
+            <p class="blog-post-meta wow fadeInLeft" data-wow-delay="0.1s">
+              por: <span style="color: #dc3545;">Jacquelin Trinidad Avalos Santos</span>.
+           </p>
+
+            <img class="rounded w-100 mb-3 wow fadeInLeft" data-wow-delay="0.1s" src="img/DepartamentoInvestigacion/img_investigacion/Silencio_Depresion.jpg" alt="">
+
+            <p class="mb wow fadeInLeft" data-wow-delay="0.1s">
+              La clínica Mayo menciona que la depresión es un trastorno emocional, causando frecuentemente un gran sentimiento de tristeza y la perdida de interés en las actividades a realizar. También conocido como “trastorno depresivo mayor”, afecta los sentimientos, el comportamiento y pensamientos de las personas, causando problemas emocionales y físicos; afectando la realización de actividades cotidianas (es posible llegar a pensar que no tiene sentido la vida).
+              </p>
+              <div class="wow fadeInLeft" data-wow-delay="0.1">
+                <a
+                href="https://drive.google.com/file/d/1jhGi4Jl6k0O7r14CekBnnWBmbbKFB_83/preview?usp=embed_googleplus" class="icon-link gap-1 icon-link-hover stretched-link" target="_blank"
+              >
+                Ver artículo completo
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+              </div>
+  
+          </div>
+
+              <!-- <blockquote>
                 <p>
                   Longer quote goes here, maybe with some
                   <strong>emphasized text</strong> in the middle of it.
                 </p>
-              </blockquote>
-              <p>
-                This is some additional paragraph placeholder content. It has
-                been written to fill the available space and show how a longer
-                snippet of text affects the surrounding content. We'll repeat it
-                often to keep the demonstration flowing, so be on the lookout
-                for this exact same string of text.
-              </p>
-              <h3>Example table</h3>
+              </blockquote> -->
+
+              <!-- <h3>Example table</h3>
               <p>And don't forget about tables in these posts:</p>
               <table class="table">
                 <thead>
@@ -448,50 +561,60 @@
                 This is some additional paragraph placeholder content. It's a
                 slightly shorter version of the other highly repetitive body
                 text used throughout.
-              </p>
+              </p> -->
             </article>
 
             <article class="blog-post">
-              <h2 class="display-5 link-body-emphasis mb-1">New feature</h2>
-              <p class="blog-post-meta">
-                December 14, 2020 by <a href="#">Chris</a>
-              </p>
+              <h2 class="display-5 link-body-emphasis mb-1 wow fadeInDown" data-wow-delay="0.1s">Normas para autores</h2>
 
-              <p>
-                This is some additional paragraph placeholder content. It has
-                been written to fill the available space and show how a longer
-                snippet of text affects the surrounding content. We'll repeat it
-                often to keep the demonstration flowing, so be on the lookout
-                for this exact same string of text.
-              </p>
-              <ul>
-                <li>First list item</li>
-                <li>Second list item with a longer description</li>
-                <li>Third list item to close it out</li>
-              </ul>
-              <p>
-                This is some additional paragraph placeholder content. It's a
-                slightly shorter version of the other highly repetitive body
-                text used throughout.
-              </p>
+              <p>Si deseas contribuir a nuestra revista, por favor, revisa nuestras normas para autores para garantizar la calidad y el cumplimiento de los estándares académicos.</p>
+
+              <div id="icon-grid">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-3">
+
+                  <div class="col d-flex align-items-start">
+                    <!-- <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>                     -->
+                    <div class="wow fadeInUp" data-wow-delay="0.1">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Formato y Estructura</h3>
+                      <p>Asegúrate de seguir las pautas de formato y estructura específicas para artículos científicos.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="wow fadeInUp" data-wow-delay="0.1">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Criterios de Evaluación</h3>
+                      <p>Nuestro comité editorial evaluará los artículos en función de la calidad científica y la relevancia para el campo de estudio.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="wow fadeInUp" data-wow-delay="0.1">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Referencias Bibliográficas</h3>
+                      <p>Las referencias bibliográficas deben seguir el formato APA y ser precisas y completas.</p>
+                    </div>
+                  </div>
+                  <div class="col d-flex align-items-start">
+                    <div class="wow fadeInUp" data-wow-delay="0.1">
+                      <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Originalidad y Ética</h3>
+                      <p>Asegúrate de que tu artículo sea original, respetando los derechos de autor y las normas éticas de la investigación.</p>
+                    </div>
+                  </div>
+
+                </div>
+                
+              </div>
+
             </article>
 
-            <nav class="blog-pagination" aria-label="Pagination">
-              <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-              <a
-                class="btn btn-outline-secondary rounded-pill disabled"
-                aria-disabled="true"
-                >Newer</a
-              >
-            </nav>
+            <hr>
+
           </div>
 
           <div class="col-md-4">
             <div class="position-sticky" style="top: 2rem">
               <div class="p-4 mb-3 bg-body-tertiary rounded">
-                <h4 class="fst-italic">Dr. Adriana de Jesus Salazar García</h4>
-                <img class="w-100 mb-2 rounded" src="img/DepartamentoInvestigacion/Directora.jpeg" alt="">
-                <p class="mb-0">
+                <h4 class="fst-italic wow fadeInRight" data-wow-delay="0.1s">Dr. Adriana de Jesus Salazar García</h4>
+                <img class="w-100 mb-2 rounded wow fadeInUp" data-wow-delay="0.1s" src="img/DepartamentoInvestigacion/Directora.jpeg" alt="">
+                <p class="mb-0 wow fadeInLeft" data-wow-delay="0.3">
                   Directora del Departamento de Investigación y Difusión del Conocimiento.
                 </p>
               </div>
@@ -606,6 +729,27 @@
         </div>
       </div>
     </main>
+
+    <!-- Modal Start -->
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="ConvocatoriasModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Convocatorias 2025</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe class="rounded" src="img/pdf/convocatoria.pdf" frameborder="0" style="width:100%; height:500px"></iframe>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal End -->
 
     <!-- Main End -->
 
