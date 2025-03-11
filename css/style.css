@@ -875,6 +875,22 @@ body {
 .team .team-carousel .team-item:hover .team-img img {
   transform: scale(1.1);
 }
+
+/* Ajustar altura uniforme para las cards de Personal Administrativo */
+.team-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.team-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 10rem;
+}
+
 /*** Personal Administrativo End ***/
 
 /* Estilo del botón flotante */
@@ -971,6 +987,24 @@ body {
 @media (max-width: 768px) {
   .investigacionBlog {
     margin-top: 2rem;
+  }
+  .FondoHeaderInvestigacion {
+    position: relative;
+  }
+
+  .FondoHeaderInvestigacion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Opacidad negra */
+  }
+
+  .headerInvestigacion {
+    position: relative;
+    z-index: 1;
   }
 }
 

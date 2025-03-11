@@ -868,10 +868,10 @@
               <div>
                 <h4 class="fst-italic">Conoce más...</h4>
                 <ul class="list-unstyled">
-                  <li>
+                  <!-- <li>
                     <a
                       class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
-                      href="#"
+                      href="404.html"
                     >
                       <svg
                         class="bd-placeholder-img"
@@ -891,11 +891,13 @@
                         >
                       </div>
                     </a>
-                  </li>
+                  </li> -->
                   <li>
                     <a
                       class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
                       href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#ComiteModal"
                     >
                       <img
                         src="img/DepartamentoInvestigacion/Miniatura_Comite.svg"
@@ -905,8 +907,8 @@
                       <div class="col-lg-8">
                         <h6 class="mb-0">Comité</h6>
                         <small class="text-body-secondary"
-                          >January 14, 2024</small
-                        >
+                          >Ver más <i class="fa-solid fa-arrow-right fa-xs"></i
+                        ></small>
                       </div>
                     </a>
                   </li>
@@ -914,6 +916,8 @@
                     <a
                       class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
                       href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#MasInformacionModal"
                     >
                       <img
                         src="img/DepartamentoInvestigacion/Miniatura_TripticoRevista.svg"
@@ -924,8 +928,29 @@
                       <div class="col-lg-8">
                         <h6 class="mb-0">Más información</h6>
                         <small class="text-body-secondary"
-                          >January 13, 2024</small
-                        >
+                          >Ver más <i class="fa-solid fa-arrow-right fa-xs"></i
+                        ></small>
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#DirectorioModal"
+                    >
+                      <img
+                        src="img/DepartamentoInvestigacion/Miniatura_Directorio.svg"
+                        alt=""
+                        style="width: 100%; height: 96px"
+                      />
+
+                      <div class="col-lg-8">
+                        <h6 class="mb-0">Directorio</h6>
+                        <small class="text-body-secondary"
+                          >Ver más <i class="fa-solid fa-arrow-right fa-xs"></i
+                        ></small>
                       </div>
                     </a>
                   </li>
@@ -994,26 +1019,154 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-xl">
         <div class="modal-content">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">
               Convocatorias<span class="gradiente"> 2025</span>
             </h1>
-            <button
+            <!-- <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
-            ></button>
+            ></button> -->
           </div>
           <div class="modal-body">
             <iframe
-              class="rounded"
               src="img/pdf/convocatoria.pdf"
               frameborder="0"
-              style="width: 100%; height: 800px"
+              style="width: 100%; height: 100vh"
             ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger text-light"
+              data-bs-dismiss="modal"
+            >
+              cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="ComiteModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              <span class="gradiente">Comité</span> de investigación
+            </h1>
+            <!-- <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button> -->
+          </div>
+          <div class="modal-body">
+            <iframe
+              src="img/DepartamentoInvestigacion/Triptico_Comite.pdf"
+              frameborder="0"
+              style="width: 100%; height: 100vh"
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger text-light"
+              data-bs-dismiss="modal"
+            >
+              cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="MasInformacionModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Convocatorias<span class="gradiente"> 2025</span>
+            </h1>
+            <!-- <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button> -->
+          </div>
+          <div class="modal-body">
+            <iframe
+              src="img/DepartamentoInvestigacion/Triptico_Revista.pdf"
+              frameborder="0"
+              style="width: 100%; height: 100vh"
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger text-light"
+              data-bs-dismiss="modal"
+            >
+              cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="DirectorioModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Convocatorias<span class="gradiente"> 2025</span>
+            </h1>
+            <!-- <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button> -->
+          </div>
+          <div class="modal-body">
+            <img
+              src="img/DepartamentoInvestigacion/Directorio.png"
+              alt=""
+              style="width: 100%"
+            />
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger text-light"
+              data-bs-dismiss="modal"
+            >
+              cerrar
+            </button>
           </div>
         </div>
       </div>
