@@ -627,11 +627,13 @@ body {
 }
 
 #indexHeader_titulo {
+  font-family: "poppins", sans-serif;
   font-size: 4rem;
   font-weight: 800;
 }
 
 #indexHeader_subtitulo {
+  font-family: "Inter", serif;
   font-size: 2.5rem;
   color: #dc3545;
 }
@@ -697,11 +699,11 @@ body {
   .parallax {
     height: 90vh;
   }
-  #tituloHeaderPagos {
+  #indexHeader_titulo {
     font-size: 2.5rem;
     top: 25%;
   }
-  #subtituloHeaderPagos {
+  #indexHeader_subtitulo {
     font-size: 1.5rem;
     top: 50%;
   }
@@ -733,7 +735,10 @@ body {
 
 @media (max-width: 425px) {
   .indexHeader {
-    top: 10%;
+    top: 20%;
+  }
+  #indexHeader_btns {
+    margin-top: 2rem;
   }
 }
 
@@ -751,9 +756,7 @@ body {
   #indexHeader_subtitulo {
     font-size: 1.2rem;
   }
-  #indexHeader_btns {
-    margin-top: 2rem;
-  }
+
   #indexHeader_btns a {
     display: flex;
     flex-direction: column;
