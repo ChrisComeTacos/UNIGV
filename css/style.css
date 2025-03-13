@@ -611,22 +611,29 @@ body {
   pointer-events: none;
 }
 
-#tituloHeaderPagos,
-#subtituloHeaderPagos {
+.indexHeader {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  color: #dc3545;
   text-align: center;
+  top: 25%;
 }
 
-#tituloHeaderPagos {
-  font-size: 3.5rem;
+.indexHeader_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+#indexHeader_titulo {
+  font-size: 4rem;
   font-weight: 800;
-  top: 20%;
 }
 
-#subtituloHeaderPagos {
-  margin-top: 1rem;
-  top: 42%;
+#indexHeader_subtitulo {
+  font-size: 2.5rem;
+  color: #dc3545;
 }
 
 /* PAGOS */
@@ -639,13 +646,20 @@ body {
   .parallax {
     height: 100vh;
   }
-  #tituloHeaderPagos {
-    font-size: 2.5rem;
-    top: 40%;
+
+  .indexHeader {
+    padding: 1rem;
   }
-  #subtituloHeaderPagos {
+  #indexHeader_titulo {
+    font-size: 2.5rem;
+    /* top: 40%; */
+  }
+  #indexHeader_subtitulo {
     font-size: 1.5rem;
-    top: 50%;
+    /* top: 50%; */
+  }
+  #indexHeader_subtitulo a {
+    gap: 1rem;
   }
   #cerros {
     bottom: 0;
@@ -717,12 +731,30 @@ body {
   }
 }
 
+@media (max-width: 425px) {
+  .indexHeader {
+    top: 10%;
+  }
+}
+
 @media (max-width: 320px) {
-  #tituloHeaderPagos {
-    font-size: 2rem;
+  .parallax {
+    height: 80vh;
+  }
+  .indexHeader {
+    top: 10%;
+  }
+  #indexHeader_titulo {
+    font-size: 1.5rem;
     top: 25%;
   }
-  #subtituloHeaderPagos a {
+  #indexHeader_subtitulo {
+    font-size: 1.2rem;
+  }
+  #indexHeader_btns {
+    margin-top: 2rem;
+  }
+  #indexHeader_btns a {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
