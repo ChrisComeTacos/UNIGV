@@ -166,6 +166,31 @@
     },
   });
 
+  $(".cards-carousel").owlCarousel({
+    autoplay: true,
+    smartSpeed: 1000,
+    dots: false,
+    loop: true,
+    margin: 25,
+    nav: true,
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>',
+    ],
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      576: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+    },
+  });
+
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
@@ -195,3 +220,7 @@ window.onclick = function (event) {
     menu.style.display = "none";
   }
 };
+
+Fancybox.bind('[data-fancybox="gallery"]', {
+  theme: "default",
+});

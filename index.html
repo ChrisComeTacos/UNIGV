@@ -54,6 +54,26 @@
     </div>
     <!-- Spinner End -->
 
+    <!-- Modal al cargar -->
+    <div class="modal fade show" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: block; background: rgba(0, 0, 0, 0.5);">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Promociones</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+              </div>
+              <div class="modal-body">
+               <img      src="img/Pagos/Tombola.jpg"     class="w-100"        alt="Imagen"                 />
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Termina modal -->
+
     <!-- Topbar Start -->
     <div class="container-fluid bg-secondary px-5 d-none d-lg-block bg-danger">
       <div class="row gx-0 align-items-center" style="height: 45px">
@@ -126,8 +146,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link active">Inicio</a>
-
+            <a href="index.html" class="nav-item nav-link active "  >Inicio</a>
+ <a href="#" class="nav-item nav-link active "  data-bs-toggle="modal"
+              data-bs-target="#TombolaModal"> <span class="spinner-grow spinner-grow-sm me-1"></span>Promociones </a>
             <div class="nav-item dropdown">
               <a
                 href="#"
@@ -149,6 +170,9 @@
                   >Departamento de investigacion</a
                 >
                 <a href="Pagos.html" class="dropdown-item">Pagos</a>
+
+                <a href="galeria_instalaciones.html" class="dropdown-item">Galería</a>
+                
               </div>
             </div>
 
@@ -186,6 +210,21 @@
       </nav>
     </div>
 
+ <!-- tombola -->
+    <div class="modal fade" id="TombolaModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-body p-0">
+                <img
+                  src="img/Pagos/Tombola.jpg"
+                  class="w-100"
+                  alt="Imagen"
+                />
+              </div>
+            </div>
+          </div>
+    </div>
+
     <!-- Navbar & Hero End -->
 
     <!-- Carousel Start -->
@@ -197,7 +236,7 @@
         <div class="indexHeader">
           <div class="indexHeader_txt">
             <h2 id="indexHeader_titulo" class="gradiente wow fadeInUp border-bottom border-warning" data-wow-delay="0.1s">UNIVERSIDAD GUADALUPE VICTORIA</h2>
-            <h2 id="indexHeader_subtitulo" class="wow fadeInUp" data-wow-delay="0.1s">!Bienvenido a tu próxima universidad!</h2>
+            <h2 id="indexHeader_subtitulo" class="wow fadeInUp fw-bold" data-wow-delay="0.1s">¡Bienvenido a tu próxima universidad!</h2>
           </div>
           <div id="indexHeader_btns" class="wow fadeInUp" data-wow-delay="0.1s">
             <a
@@ -214,9 +253,9 @@
         </div>
           <img src="img/parallax/UNIGVilustracion-07.svg" id="cerros" />
           <img src="img/parallax/UNIGVilustracion-03.svg" id="estacionamiento" />
-          <img src="img/parallax/UNIGVilustracion-06.svg" id="persona1" />
-          <img src="img/parallax/UNIGVilustracion-05.svg" id="persona2" />
-          <img src="img/parallax/UNIGVilustracion-04.svg" id="universidad" />
+          <img src="img/parallax/Correccion/UNIGVilustracion-06.svg" id="persona1" />
+          <img src="img/parallax/Correccion/UNIGVilustracion-05.svg" id="persona2" />
+          <img src="img/parallax/Correccion/UNIGVilustracion-04.svg" id="universidad" />
           <img src="img/parallax/UNIGVilustracion-02.svg" id="arbustos" />
         </section>
 
@@ -359,7 +398,7 @@
         <div class="col-10 col-sm-8 col-lg-6">
           <img
             src="img/about-2.jpg"
-            class="d-block mx-lg-auto img-fluid rounded shadow wow fadeInLeft" data-wow-delay="0.1s"
+            class="thumbnail d-block mx-lg-auto img-fluid rounded shadow wow fadeInLeft" data-wow-delay="0.1s"
             alt="Bootstrap Themes"
             width="700"
             loading="lazy"
@@ -399,9 +438,45 @@
 
     <!-- About End -->
 
-    <!-- Cards Licenciatura Start -->
+        <!-- About Start -->
 
+<div class="SobreNosotros container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse justify-content-center align-items-center g-5 py-5">
+    <!-- Imagen ahora a la derecha -->
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img
+        src="img/MariaRefugio.jpg"
+        class="thumbnail d-block mx-lg-auto img-fluid rounded shadow wow fadeInRight" data-wow-delay="0.1s"
+        alt="Bootstrap Themes"
+        width="700"
+        loading="lazy"
+      />
+    </div>
     
+    <!-- Nuestra fundadora Start -->
+    <div class="col-lg-6">
+                    <h4 class="text-secondary sub-title fw-bold wow fadeInUp" data-wow-delay="0.1s">Nuestra fundadora</h4>
+              <h1 class="display-5 mb-0 wow fadeInUp" data-wow-delay="0.3s">María Del Refugio Aguilar y Torres</h1>
+        <!-- <h4
+          class=" sub-title fw-bold wow fadeInUp"
+          data-wow-delay="0.1s">
+            Nuestra fundadora
+        </h4>
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 wow fadeInDown" data-wow-delay="0.3s">
+         María del Refugio Aguilar y Torres
+      </h1> -->
+      <br>
+        <p>
+        <em>María del Refugio Aguilar y Torres</em> nació el 21 de septiembre de 1866 en San Miguel de Allende. Desde pequeña mostró un profundo amor por Jesús Eucaristía. Se casó joven y quedó viuda a los 22 años, dedicándose a sus hijos y a obras de caridad. Ingresó a la Tercera Orden Franciscana y, en Morelia, conoció al Padre Vicente M. Zaragoza, con quien compartió su deseo de consagrarse a Dios.
+        </p>
+        <p>En 1896 hizo voto de castidad y, en 1910, fundó el Apostolado de Jesús Eucarístico, hoy Hermanas Mercedarias del Santísimo Sacramento. A pesar de dificultades, abrió colegios en varios países para acercar a la niñez a la Eucaristía. Murió en 1937 en la Ciudad de México, dejando un legado educativo y espiritual.</p>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Nuestra Fundadora End -->
 
     <!-- Cards Licenciatura Start -->
 
@@ -1225,7 +1300,7 @@
               <li class="nav-item">
                 <a
                   href="img/pdf/privacidad.pdf"
-                  class="nav-link px-2 text-light"
+                  class="nav-link px-2 text-light" target="_blank"
                   >Aviso de Privacidad</a
                 >
               </li>
@@ -1329,6 +1404,15 @@
     <!-- Parallax Script -->
 
     <script src="js/parallax.js"></script>
+
+    <!-- Mostrar Modal -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          var myModal = new bootstrap.Modal(document.getElementById('myModal'));
+          myModal.show();
+      });
+    </script>
 
 
   </body>

@@ -111,7 +111,14 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
             <a href="index.html" class="nav-item nav-link active">Inicio</a>
-
+            <a
+              href="#"
+              class="nav-item nav-link active"
+              data-bs-toggle="modal"
+              data-bs-target="#TombolaModal"
+            >
+              <span class="spinner-grow spinner-grow-sm me-1"></span>Promociones
+            </a>
             <div class="nav-item dropdown">
               <a
                 href="#"
@@ -120,17 +127,21 @@
                 >Información</a
               >
               <div class="dropdown-menu m-0 shadow">
-                <a href="OfertaEducativa.html" class="dropdown-item"
+                <a href="#ofertaEducativa" class="dropdown-item"
                   >Oferta educativa</a
                 >
                 <a href="Reglamento.html" class="dropdown-item"
                   >Reglamento escolar</a
                 >
 
-                <a href="404.html" class="dropdown-item"
+                <a href="Investigacion.html" class="dropdown-item"
                   >Departamento de investigacion</a
                 >
                 <a href="Pagos.html" class="dropdown-item">Pagos</a>
+
+                <a href="galeria_instalaciones.html" class="dropdown-item"
+                  >Galería</a
+                >
               </div>
             </div>
 
@@ -161,6 +172,7 @@
           <a
             href="https://universidadgv.edu.mx/virtual/login/index.php"
             class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
+            target="_blank"
             >Plataforma</a
           >
         </div>
@@ -176,26 +188,33 @@
           class="FondoHeaderInvestigacion p-4 p-md-5 mb-4 rounded text-body-emphasis wow fadeInDown"
           data-wow-delay="0.1s"
           style="
-            background-image: url('img/DepartamentoInvestigacion/ConvocatoriaPagina.png');
+            background-image: url('img/DepartamentoInvestigacion/ConvocatoriaPagina2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: top;
+            background-position: center;
           "
         >
           <div class="headerInvestigacion col-lg-6 p-4">
             <h1
-              class="gradiente display-4 fst-italic wow fadeInLeft"
+              class="text-white fs-1 fw-bolder wow fadeInLeft"
               data-wow-delay="0.1s"
             >
-              Departamento de investigación
+              Departamento de investigación y Difusión del Conocimiento
             </h1>
-            <p class="text-dark lead my-3 wow fadeInLeft" data-wow-delay="0.2s">
-              "Fomentar la investigación universitaria para difundir
-              conocimiento académico, científico y de divulgación."
+            <p
+              class="text-white lead my-3 wow fadeInLeft"
+              data-wow-delay="0.2s"
+            >
+              Invitación al
+              <b
+                >Décimo Séptimo Congreso Internacional de Metodología de la
+                Ciencia y de la Investigación para la Educación</b
+              >, organizado por La Asociación Mexicana de Metodología de la
+              Ciencia y la Investigación, A. C.
             </p>
             <p class="lead mb-0 wow fadeInLeft" data-wow-delay="0.3s">
               <a
-                href="#SobreNosotros_Investigacion"
+                href="#Congreso"
                 class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0"
                 >Seguir leyendo...</a
               >
@@ -208,70 +227,162 @@
           </div>
         </div>
 
-        <div class="row mb-2">
-          <div class="col-md-6">
-            <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp"
+        <!-- Cards Carousel Start -->
+
+        <div class="container-fluid contact mt-5">
+          <div class="container">
+            <h4
+              class="text-secondary sub-title fw-bold wow fadeInUp"
               data-wow-delay="0.1s"
             >
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary-emphasis"
-                  >UNIGV</strong
-                >
-                <h3 class="gradiente mb-0">Convocatorias</h3>
-                <div class="mb-1 text-body-secondary">Feb 2025</div>
-                <p class="card-text mb-auto">
-                  Consulta las últimas convocatorias para proyectos de
-                  investigación, becas y eventos académicos.
-                </p>
-                <a href="img/pdf/convocatoria.pdf" target="_blank">
-                  Saber más
-                  <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img
-                  src="img/DepartamentoInvestigacion/ConvocatoriasAbiertas.png"
-                  alt=""
-                  style="width: 100%; height: 250px"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
+              Noticias
+            </h4>
+            <!-- <h1 class="display-2 mb-0 wow fadeInUp" data-wow-delay="0.3s">
+              Personal administrativo
+            </h1> -->
+
             <div
-              class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp"
-              data-wow-delay="0.1s"
+              id="CardsInvestigacion"
+              class="container-fluid team mt-2 h-100"
             >
-              <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-success-emphasis"
-                  >Lectura</strong
-                >
-                <h3 class="gradiente mb-0">Revista Digital</h3>
-                <div class="mb-1 text-body-secondary">Dic 2024</div>
-                <p class="mb-auto">
-                  Explora nuestra Revista Digital con artículos, investigaciones
-                  y avances académicos. ¡Descubre y comparte conocimiento!
-                </p>
-                <a
-                  href="https://heyzine.com/flip-book/b18f755ff8.html"
-                  target="_blank"
-                  class="icon-link gap-1 icon-link-hover stretched-link"
-                >
-                  Saber más
-                  <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-              <div class="col-auto d-none d-lg-block">
-                <img
-                  src="img/DepartamentoInvestigacion/Revista_Digital.png"
-                  alt=""
-                  style="width: 100%; height: 250px"
-                />
+              <div class="container">
+                <div class="pb-5">
+                  <div
+                    class="cards-carousel owl-carousel py-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                  >
+                    <div
+                      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp"
+                      data-wow-delay="0.1s"
+                    >
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong
+                          class="d-inline-block mb-2 text-primary-emphasis"
+                          >UNIGV</strong
+                        >
+                        <h3 class="gradiente mb-0">Convocatorias</h3>
+                        <div class="mb-1 text-body-secondary">Feb 2025</div>
+                        <p class="card-text mb-auto">
+                          Consulta las últimas convocatorias para proyectos de
+                          investigación, becas y eventos académicos.
+                        </p>
+                        <a href="img/pdf/convocatoria.pdf" target="_blank">
+                          Saber más
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <img
+                          src="img/DepartamentoInvestigacion/ConvocatoriasAbiertas.png"
+                          alt=""
+                          style="width: 100%; height: 250px"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp"
+                      data-wow-delay="0.1s"
+                    >
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong
+                          class="d-inline-block mb-2 text-success-emphasis"
+                          >Lectura</strong
+                        >
+                        <h3 class="gradiente mb-0">Revista Digital</h3>
+                        <div class="mb-1 text-body-secondary">Dic 2024</div>
+                        <p class="mb-auto">
+                          Explora nuestra Revista Digital con artículos,
+                          investigaciones y avances académicos. ¡Descubre y
+                          comparte conocimiento!
+                        </p>
+                        <a
+                          href="https://heyzine.com/flip-book/b18f755ff8.html"
+                          target="_blank"
+                          class="icon-link gap-1 icon-link-hover stretched-link"
+                        >
+                          Saber más
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <img
+                          src="img/DepartamentoInvestigacion/Revista_Digital.png"
+                          alt=""
+                          style="width: 100%; height: 250px"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp"
+                      data-wow-delay="0.1s"
+                    >
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong
+                          class="d-inline-block mb-2 text-primary-emphasis"
+                          >Eventos</strong
+                        >
+                        <h3 class="gradiente mb-0">
+                          Flyer Congreso AMMCI 2025
+                        </h3>
+                        <div class="mb-1 text-body-secondary">Jul 2025</div>
+                        <p class="card-text mb-auto">
+                          Congreso sobre TIC e inteligencia artificial en
+                          educación e investigación.
+                        </p>
+                        <a href="img/pdf/flyerAMMCI.pdf" target="_blank">
+                          Saber más
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <img
+                          src="img/DepartamentoInvestigacion/Congreso/CongresoCard.png"
+                          alt=""
+                          style="width: 100%; height: 250px"
+                        />
+                      </div>
+                    </div>
+
+                    <div
+                      class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative wow fadeInUp"
+                      data-wow-delay="0.1s"
+                    >
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong
+                          class="d-inline-block mb-2 text-primary-emphasis"
+                          >Eventos</strong
+                        >
+                        <h3 class="gradiente mb-0">
+                          Tríptico Congreso AMMCI 2025
+                        </h3>
+                        <div class="mb-1 text-body-secondary">Jul 2025</div>
+                        <p class="card-text mb-auto">
+                          Consulta convocatorias, objetivos, mesas,
+                          inscripciones y comité organizador aquí.
+                        </p>
+                        <a href="img/pdf/tripticoAMMCI.pdf" target="_blank">
+                          Saber más
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <img
+                          src="img/DepartamentoInvestigacion/Congreso/CongresoCard2.png"
+                          alt=""
+                          style="width: 100%; height: 250px"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Cards Carousel End -->
 
         <div class="row g-5">
           <div class="col-md-8">
@@ -391,6 +502,55 @@
                   científicos.
                 </li>
               </ul>
+
+              <h2 id="Congreso" class="wow fadeInDown" data-wow-delay="0.1s">
+                Décimo Séptimo Congreso Internacional de Metodología de la
+                Ciencia y de la Investigación para la Educación
+              </h2>
+              <p class="fw-bold wow fadeInDown" data-wow-delay="0.1s">
+                "TIC e Inteligencia Artificial en la Investigación y la
+                Educación: una Mirada Metodológica"
+              </p>
+              <p>
+                Se les hace la invitación oficial al Décimo Séptimo Congreso
+                Internacional de Metodología de la Ciencia y de la Investigación
+                para la Educación, organizado por La Asociación Mexicana de
+                Metodología de la Ciencia y la Investigación, A. C., el cual se
+                llevará a cabo en modalidad híbrida (presencial y en línea), del
+                23 al 25 de octubre de 2025, en las instalaciones del Centro
+                Regional Universitario Panamá Oeste de la Universidad de Panamá,
+                en la Ciudad de Panamá, Panamá.
+              </p>
+
+              <p>
+                Asimismo, se extiende la invitación a participar de manera
+                gratuita en los talleres virtuales de elaboración de resúmenes,
+                que se realizarán del
+                <b
+                  >1º al 4 de julio, de 18:00 a 20:00 horas (hora de la Ciudad
+                  de México)</b
+                >
+                vía Zoom. Las inscripciones están disponibles
+                <a href="https://forms.gle/uyada6hPeY9dkYVN7" target="_blank"
+                  >en este enlace</a
+                >
+                hasta el <b>1º de julio</b>.
+              </p>
+
+              <p>
+                Posteriormente, del <b>5 al 19 de julio</b>, se desarrollarán
+                actividades asincrónicas en la plataforma Moodle para la
+                redacción del resumen. La entrega final será el
+                <b>21 de julio</b>, a través de la plataforma oficial del
+                congreso.
+              </p>
+
+              <p>
+                Los participantes que cumplan con todos los requisitos podrán
+                solicitar constancia por 25 horas, con evaluación, mediante una
+                donación simbólica de <b>$250.00 MXN</b>, cuyos datos bancarios
+                se especifican en el material adjunto.
+              </p>
 
               <h2 class="wow fadeInDown" data-wow-delay="0.1s">Galería</h2>
 
@@ -848,7 +1008,7 @@
             <div class="position-sticky" style="top: 2rem">
               <div class="p-4 mb-3 bg-body-tertiary rounded">
                 <h4 class="fst-italic wow fadeInRight" data-wow-delay="0.1s">
-                  Dr. Adriana de Jesus Salazar García
+                  Dra. Adriana de Jesus Salazar García
                 </h4>
                 <img
                   class="w-100 mb-2 rounded wow fadeInUp"
@@ -1173,6 +1333,7 @@
                 <a
                   href="img/pdf/privacidad.pdf"
                   class="nav-link px-2 text-light"
+                  target="_blank"
                   >Aviso de Privacidad</a
                 >
               </li>
@@ -1205,6 +1366,8 @@
       ><i class="fa fa-arrow-up"></i
     ></a>
 
+    <script src="slider.js"></script>
+
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -1217,9 +1380,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script
-      src="https://creattie.com/js/embed.js?id=3f6954fde297cd31b441"
-      defer
-    ></script>
   </body>
 </html>

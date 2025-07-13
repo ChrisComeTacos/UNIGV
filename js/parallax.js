@@ -1,3 +1,5 @@
+// ESTO ES DEL PARALLAX DEL INICIO
+
 // let header = document.getElementById("header");
 
 let indexHeader_titulo = document.getElementById("indexHeader_titulo");

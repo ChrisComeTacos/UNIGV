@@ -33,7 +33,9 @@ body {
 
 .gradiente {
   background: -webkit-linear-gradient(right, #ef4444, #b91c1c);
+  background: linear-gradient(to left, #ef4444, #b91c1c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -110,6 +112,17 @@ body {
 .btn.btn-primary:hover {
   box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
   color: var(--bs-primary) !important;
+}
+
+/* boton con colores inversos en el hover */
+
+.btn.btn-inverso {
+  box-shadow: inset 0 0 0 0 var(--bs-primary);
+}
+
+.btn.btn-inverso:hover {
+  box-shadow: inset 300px 0 0 0 var(--bs-primary) !important;
+  color: var(--bs-light) !important;
 }
 
 .btn.btn-secondary {
@@ -312,7 +325,7 @@ body {
 }
 
 /*** Carousel Hero Header Start ***/
-.header-carousel {
+/* .header-carousel {
   position: relative;
 }
 
@@ -421,7 +434,7 @@ body {
   .carousel-caption-content {
   position: relative;
   width: 75%;
-}
+} */
 
 /* Titulacion y servicio social Start */
 
@@ -443,22 +456,15 @@ body {
 
 .PracticasProfesionales h2 {
   background: -webkit-linear-gradient(right, #ef4444, #b91c1c);
+  background: linear-gradient(to left, #ef4444, #b91c1c);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .iframePracticas {
   text-align: center;
 }
-
-/* Glassmorphism card effect */
-/* .headerInvestigacion {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
-  border-radius: 12px;
-  border: 1px solid rgba(209, 213, 219, 0.3);
-} */
 
 @media (max-width: 768px) {
   .headerTitulacion {
@@ -598,7 +604,7 @@ body {
 
 .parallax {
   position: relative;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -635,7 +641,7 @@ body {
 #indexHeader_subtitulo {
   font-family: "Inter", serif;
   font-size: 2.5rem;
-  color: #dc3545;
+  color: #e9a21f;
 }
 
 /* PAGOS */
@@ -928,6 +934,35 @@ body {
 
 /*** Personal Administrativo End ***/
 
+.cards-carousel .owl-stage-outer {
+  margin-top: 30px;
+}
+.cards-carousel .owl-nav .owl-prev,
+.cards-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 1px;
+  padding: 10px 35px;
+  /* border: 1px solid var(--bs-secondary); */
+  color: var(--bs-white);
+  background: var(--bs-secondary);
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.cards-carousel .owl-nav .owl-prev {
+  left: 0 !important;
+}
+
+.cards-carousel .owl-nav .owl-next {
+  right: 0;
+}
+
+.cards-carousel .owl-nav .owl-prev:hover,
+.cards-carousel .owl-nav .owl-next:hover {
+  box-shadow: inset 100px 0 0 0 var(--bs-light) !important;
+  color: var(--bs-primary) !important;
+}
+
 /* Estilo del botón flotante */
 .whatsapp-button {
   position: fixed;
@@ -1034,7 +1069,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.5);
+    /* background: rgba(255, 255, 255, 0.5); */
+    background: rgba(0, 0, 0, 0.362);
+    border-radius: 10px;
   }
 
   .headerInvestigacion {
@@ -1044,3 +1081,34 @@ body {
 }
 
 /* Investigacion End */
+
+/* Galeria Start */
+
+.thumb-wrapper {
+  aspect-ratio: 16 / 9; /* puedes cambiar a 1 / 1 para cuadrado */
+  overflow: hidden;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.thumb-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-hover img {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.gallery-hover img:hover {
+  filter: brightness(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Galeria End  */
